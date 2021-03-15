@@ -3,5 +3,5 @@
  <p align="center">
   <img width="1024" src="https://github.com/kerbstone52/cruachan-equinox/blob/main/CoverImage.png">
 </p>
-<p style="text-align: center;">Above Image: The Mace archaeoastronomy tool interface.</p>
+<p style="text-align: center;">Above Image: The Cruachan Equinox Intro.</p>
 <p style="text-align: center;">Live Version: A live version of The Cruachan Equinox is available @ https://kerbstone52.github.io/cruachan-equinox/index.html</p>
