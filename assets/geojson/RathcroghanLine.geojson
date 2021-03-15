@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","id":4,"properties":{"Division":"Equinox","Line":"Spring eastern sunrise","stroke":"#fff176","stroke-width":2,"stroke-opacity":1,"Inner bearing":"","geodesic":"true","geodesic_steps":50,"geodesic_wrap":"true"},"geometry":{"type":"LineString","coordinates":[[-8.3041,53.8022],[-7.71598,53.80727]]}}]}

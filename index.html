@@ -1,0 +1,3500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Archaeoastronomy">
+    <meta name="author" content="Brian Doyle">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>The Cruachan Equinox</title>
+    
+            
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+    <!-- Other stylesheets here-->
+    <link href="css/leaflet.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/leaflet-extra-markers@1.1.0/dist/css/leaflet.extra-markers.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.css">
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+    
+    
+    <!-- cruachan blue #526392--> 
+    
+    
+ </head>
+
+<!-- Leaflet js -->    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script>
+<!-- <script src="js/leaflet.js"></script> -->
+    
+<body>
+
+<nav id="navbar-k52" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#"><i class="far fa-dot-circle"></i>&nbsp;Kerbstone52</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Index</a>
+                <div class="dropdown-menu dropdown-menu-right scrollable-menu" aria-labelledby="dropdown01">
+                    <h6 class="dropdown-header text-primary">Introduction</h6>
+                    <a class="dropdown-item" href="#slide1">Title</a>
+                    <a class="dropdown-item" href="#slide2">The Premise</a>
+                    <h6 class="dropdown-header text-primary">Locations</h6>
+                    <a class="dropdown-item" href="#L1">Rathcroghan Mound<sup>&nbsp;1</sup></a>
+                    <a class="dropdown-item" href="#L2">Corn Hill<sup>&nbsp;2</sup></a>
+                    <a class="dropdown-item" href="#L3">Rathra<sup>&nbsp;3</sup></a>
+                    <a class="dropdown-item" href="#L4">Croagh Patrick<sup>&nbsp;4</sup></a>
+					<a class="dropdown-item" href="#L5">Carn Fraech<sup>&nbsp;5</sup></a>
+					<a class="dropdown-item" href="#L6">Carn Lamha<sup>&nbsp;6</sup></a>
+					<a class="dropdown-item" href="#L7">Castleteheen<sup>&nbsp;7</sup></a>
+					<a class="dropdown-item" href="#L8">Lisheen<sup>&nbsp;8</sup></a>
+                    <h6 class="dropdown-header text-primary">Analysis</h6>
+                    <a class="dropdown-item" href="#A1">Rathcroghan<sup>&nbsp;1</sup> - Corn Hill<sup>&nbsp;2</sup></a>
+                    <a class="dropdown-item" href="#A2">Rathra<sup>&nbsp;3</sup> - Croagh Patrick<sup>&nbsp;4</sup></a>
+                    <a class="dropdown-item" href="#A3">Castleteheen<sup>&nbsp;7</sup> - Croagh Patrick<sup>&nbsp;4</sup></a>
+                    <a class="dropdown-item" href="#A4">Castleteheen<sup>&nbsp;7</sup> - Carn Lamha<sup>&nbsp;6</sup></a>
+					<a class="dropdown-item" href="#A5">Lisheen<sup>&nbsp;8</sup> - Croagh Patrick<sup>&nbsp;4</sup></a>
+					<a class="dropdown-item" href="#A6">Lisheen<sup>&nbsp;8</sup> - Carn Fraech<sup>&nbsp;5</sup></a>
+					<a class="dropdown-item" href="#A7">Carn Lamha<sup>&nbsp;6</sup> - Lisheen<sup>&nbsp;8</sup></a>
+                    <h6 class="dropdown-header text-primary">Summary</h6>
+                    <a class="dropdown-item" href="#S1">Context</a>
+                    <a class="dropdown-item" href="#S2">The Equinox</a>
+                    <a class="dropdown-item" href="#S3">The Spéire Project</a>
+                    <h6 class="dropdown-header text-primary">About</h6>
+                    <a class="dropdown-item" href="#S4">About the presentation</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav navbar-right">
+                  <li class="hidden-xs"><a href="https://github.com/briandoylegit/cruachanequinox" target="_blank" class="text-white py-1 text-decoration-none ml-auto mx-sm-0 order-0 order-sm-last" title="View project on GitHub"><i class="fab fa-github"></i></a>
+                  </li>
+               </ul>
+
+    </div>
+</nav>
+
+    <main role="main" class="container-fluid slidecolour2" id="map">
+
+        
+        <div class="row">
+        <div data-spy="scroll" data-target="#navbar-k52" data-offset="0"class="col-4 slidecolour2 content slidecontent" id="slidecontent">
+            
+            <!-- Slide begin -->
+            <div id="slide1" class="col-12 fullheight introcolour slide1">
+            
+            <!-- Slide nav up -->  
+            <div class="col-sm-12" style="height:25px;"></div>
+            
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-center slide1"><h1 class="display-4 text-white">The</h1></div>
+            <div class="col-sm-12 text-center"><h1 class="display-4 text-white">Cruachan</h1></div>
+            <div class="col-sm-12 text-center"><h1 class="display-4 text-white">Equinox</h1></div>
+			<div class="col-sm-12" style="height:25px;"></div>
+            <div class="col-sm-12 text-center"><p class="text-white">An exploration of the equinoctal astronomic interrelationships evident for monuments in the Rathcroghan area.</p></div>
+            <div class="col-sm-12" style="height:25px;"></div>
+            <div class="col-sm-12 text-center"><p class="text-white">Brian Doyle 2020</p></div>
+                        
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#slide2"<i class="fas fa-angle-down text-white" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+            
+            
+            
+            <!-- Slide begin -->
+            <div id="slide2" class="col-12 fullheight defaulttext slide2">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#slide1" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-center text-primary slide2"><h3>The Cruachan Equinox</h3></div>
+			
+            <div class="col-sm-12 bd-callout bd-callout-danger"><p><em>The premise:</em></p><p>The ancient Irish have been aware that by being present at particular locations at specific times, they will have observable and repeatable astronomic events (phenomena) visible at other prominent locations on the skyline. That the ancient Irish afforded special significance to these locations where they could observe, on divisional days within the solar and lunar cycles, the sun or moon rise from, or set into, what they regarded as sacred mountains or sacred spaces.</p></div>
+            <div class="col-sm-12"><p>In this document I highlight a series of potential inter-site astronomic relationships, focusing on the Cruachan area and relating to the equinox.</p></div>
+			
+                        
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#slide2a" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			
+			<!-- Slide begin -->
+            <div id="slide2a" class="col-12 fullheight defaulttext slide2a">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#slide2" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            
+            <div class="col-sm-12"><p><em>Specifically in the Cruachan context:</em></p></div>
+            <div class="col-sm-12"><p><b>Rathcroghan Mound</b><sup>&nbsp;1</sup> has been positioned to observe the equinox sun rise from <b>Corn Hill</b><sup>&nbsp;2</sup>.</p></div>
+            <div class="col-sm-12"><p><b>Rathra Ceremonial Enclosure</b><sup>&nbsp;3</sup> has been positioned to observe the equinox sun set into <b>Croagh Patrick</b><sup>&nbsp;4</sup>.</p></div>
+			<div class="col-sm-12"><p><b>Castleteheen Bowl Barrow</b><sup>&nbsp;7</sup> has been positioned to observe the equinox sun rise out of <b> Carn Lamha</b><sup>&nbsp;6</sup>.</p></div>
+			<div class="col-sm-12"><p><b>Castleteheen Bowl Barrow</b><sup>&nbsp;7</sup> has been positioned to observe the equinox sun set into <b>Croagh Patrick</b><sup>&nbsp;4</sup>.</p></div>
+			<div class="col-sm-12"><p><b>Lisheen Bowl Barrow</b><sup>&nbsp;8</sup> has been positioned to observe the equinox sun rise out of <b> Carn Fraech</b><sup>&nbsp;5</sup>.</p></div>
+			<div class="col-sm-12"><p><b>Lisheen Bowl Barrow</b><sup>&nbsp;8</sup> has been positioned to observe the equinox sun set into <b>Croagh Patrick</b><sup>&nbsp;4</sup>.</p></div>
+			<div class="col-sm-12"><p><b>Carn Lamha</b><sup>&nbsp;6</sup> has been positioned to observe the equinox sun set into <b>Lisheen Bowl Barrow</b><sup>&nbsp;8</sup>.</p></div>
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#L1" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+    
+    
+            <!-- Slide begin -->
+            <div id="L1" class="col-12 fullheight defaulttext L1">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#slide2a" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted L1"><h6>Locations</h6></div>
+            <div class="col-sm-12 text-primary"><h4>Rathcroghan Mound<sup>&nbsp;1</sup></h4></div>
+            <div class="col-sm-12"><p>Rathcroghan is identified as the site of Cruachan, the traditional capital of the Connachta, the prehistoric and early historic rulers of the western territory.</p></div>
+            <div class="col-sm-12"><p>The focal point of the complex, Rathcroghan mound is a broad, flat-topped circular mound with an average diameter of 89 m at the base and a height of 5.5 m. Surveying has revealed that Rathcroghan mound was built on top of an existing monument that was made of two concentric stone built ring banks. A huge enclosure measuring 360 m in diameter and 5 m in depth was also discovered during surveying. This enclosure surrounds the great mound and various other monuments, facilitating comparisons with other royal sites in Ireland such as Tara, Emain Macha and Dún Ailinne, which have similar enclosures.</p></div>
+            <div class="col-sm-12"><p>Cruachan features prominently in the mythological Ulster Cycle and it was the home of one of its chief characters Queen Medb.</p></div>
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#L2" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+
+            
+            <!-- Slide begin -->
+            <div id="L2" class="col-12 fullheight defaulttext L2">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#L1" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted L2"><h6>Locations</h6></div>
+            <div class="col-sm-12 text-primary"><h4>Corn Hill<sup>&nbsp;2</sup></h4></div>
+            <div class="col-sm-12"><p>Corn Hill, also called Carn Hill or Carn Clonhugh (Irish: Carn Clainne Aodha or Sliabh Cairbré), is a hill in County Longford, Republic of Ireland. At 278 metres above sea level, it is the highest hill in the county. The hill is particularly important for the two possible passage grave structures atop it. The largest example is Cairn A (or Carn Caille), marking the highest physical point of the hill with a diameter of 18 m and height of 3 m.</p></div>
+            <div class="col-sm-12"><p>Cairn A (or Carn Caille) has a legend which associates the location as the burial place of Queen Medb's nephew and murderer, Furbaide Ferbend. A second legend attributes its creation by the Cailleach a Bheara or ancient Hag/Witch who dropped stones out of her apron as she flew over the hill. This legend is also associated with many Passage grave sites throughout the island of Ireland.</p></div>
+            <div class="col-sm-12"><p>The regard in which Corn Hill was anciently held, is attested to by the Sheegeeragh passage tombs (approx 8 Kilometers sw from Rathcroghan mound) which have passages specifically directed at Corn Hill.</p></div>
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#L3" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+
+
+            <!-- Slide begin -->
+            <div id="L3" class="col-12 fullheight defaulttext L3">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#L2" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted L3"><h6>Locations</h6></div>
+            <div class="col-sm-12 text-primary"><h4>Rathra<sup>&nbsp;3</sup></h4></div>
+            <div class="col-sm-12"><p>Rathra is a  multivallate ceremonial enclosure, near Castlerea, County Roscommon, Ireland. This is one of only a handful of quadri-vallate (four banks) enclosures in the whole of Ireland and probably the most spectacular. The Rathra Enclosure lies near the archaeological monuments known as the Rathcroghan Complex and this enclosure is sometimes considered to be part of this group.</p></div>
+            <div class="col-sm-12"><p>The enclosure contains a bowl barrow and a mound barrow which originally had a standing stone on it's summit.</p></div>
+            <div class="col-sm-12"><p>The site sits just off the shoulder of Mewlaghadooey Hill, the summit of which is c. 700m to the ESE and is occupied by a hillfort containing a mound which may be a passage tomb.</p></div>
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#L4" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+
+
+            <!-- Slide begin -->
+            <div id="L4" class="col-12 fullheight defaulttext L4">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#L3" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted L4"><h6>Locations</h6></div>
+            <div class="col-sm-12 text-primary"><h4>Croagh Patrick<sup>&nbsp;4</sup></h4></div>
+            <div class="col-sm-12"><p>Croagh Patrick (Irish: Cruach Phádraig, meaning "(Saint) Patrick's Stack") and nicknamed the Reek, is a 764 m mountain and an important site of pilgrimage in Mayo, Ireland.</em></p></div>
+            <div class="col-sm-12"><p>On the last Sunday in July, thousands of pilgrims climb Croagh Patrick in honour of one of Irelands patron saints - Saint Patrick. Some pilgrims carry out 'rounding rituals', in which they pray while walking sunwise around features on the mountain. This activity is regarded by many as a continuation of the pagan Lughnasa festival, the start of the harvest season. St. Patrick's day is celebrated at the spring equinox.</p><p>The mountain may have held a pre-christian association with Crom Cruach, a pagan deity.</p></div>
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#L5" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			<!-- Slide begin -->
+            <div id="L5" class="col-12 fullheight defaulttext L5">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#L4" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted L5"><h6>Locations</h6></div>
+            <div class="col-sm-12 text-primary"><h4>Carn Fraech<sup>&nbsp;5</sup></h4></div>
+            <div class="col-sm-12"><p>Carnfree - Carnfraech is a slightly dished, circular grass covered cairn. The mound is located within a ceremonial enclosure at the highest point of the broad Ard Caoin ridge.</em></p></div>
+            <div class="col-sm-12"><p>The mound is the reputed burial place of Fraoch. Fraoch is a Connacht hero (and semi-divine as the son of goddess Bébinn). He is the nephew of Boann, goddess of the river Boyne, and son of Idath of the men of Connaught. Fraoch is a contemporary of Queen Maeve and he features prominently in the Ulster Cycle of Irish mythology. The site is also known as Cnoc na Dala (Hill of the Assembly), and it is recorded as the the inauguration site of the O'Conors, the kings of Connacht.</p><p>The site is recorded as having been visited by St. Patrick.</p></div>
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#L6" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			<!-- Slide begin -->
+            <div id="L6" class="col-12 fullheight defaulttext L6">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#L5" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted L6"><h6>Locations</h6></div>
+            <div class="col-sm-12 text-primary"><h4>Carn Lamha<sup>&nbsp;6</sup></h4></div>
+            <div class="col-sm-12"><p>This bowl barrow (RO028-070----) is located on a slight rise, and second highest point of the broad WNW-ESE ridge of Carnfree (Ard Caoin). It is a circular, conical and grass-covered mound surrounded by a slight berm and fosse. Remote sensing surveys at the site and the presence of some visible stone at the NNW side suggest this monument may have a complex internal structure. The mound is located 285m to the east of Carnfree and is surrounded by three smaller degraded ring barrows, an embanked enclosure and two associated pillar stones.</em></p></div>
+            <div class="col-sm-12"><p>The mound has been re-identified as Carn Lamha - The Mound of the Hand (FitzPatrick 2004, 65). Carn Lamha is recorded in medieval literature as being associated with the warrior Fraoch, and it is within Carn Lamha that one of Fraoch's severed hands is reputed to be buried.</p><p>An alternative legend associates the mound as the burial place of the hand of a pupil of St. Patrick.</p></div>
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#L7" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			<!-- Slide begin -->
+            <div id="L7" class="col-12 fullheight defaulttext L7">
+			
+			<!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#L6" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+			
+			<!-- Slide content -->
+            <div class="col-sm-12 text-muted L7"><h6>Locations</h6></div>
+            <div class="col-sm-12 text-primary"><h4>Castleteheen Bowl Barrow<sup>&nbsp;7</sup></h4></div>
+            <div class="col-sm-12"><p>This bowl barrow (RO027-014002-) is located on a slight N-S ridge at the summit of Mewlaghadooey Hill. It compromises a circular, grass-covered flat-topped earthen mound with a slight pit on the summit. It is within the hillfort (RO027-014001-), SW of the centre. Mewlaghadooey (Mullach an Dúigh) can likely be translated as the inky or dark hilltop. There is no mythology or legends associated with the mound or hill.</em></p></div>
+            <div class="col-sm-12"><p>Given its prominent position and its size, it is suggested that the mound may contain a passage tomb (Halpin, Newman 2006).</p></div>
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#L8" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			<!-- Slide begin -->
+            <div id="L8" class="col-12 fullheight defaulttext L8">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#L7" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted L8"><h6>Locations</h6></div>
+            <div class="col-sm-12 text-primary"><h4>Lisheen Bowl Barrow<sup>&nbsp;8</sup></h4></div>
+            <div class="col-sm-12"><p>This bowl barrow (RO027-031----) is situated on the summit of a NW-SE ridge. It has outstanding views in all directions. It is comprised of a circular grass-covered mound with a slight hollow at the summit, and is defined by a shallow fosse which is separated by a berm from an outer bank. There is no identifiable original entrance. There is no mythology or legends associated with the mound. The ridge on which the barrow sits is the furthest visible point eastwards from Croagh Patrick.</em></p></div>
+            <div class="col-sm-12"><p>The townland of Lisheen translates as 'small stone fort'.</p></div>
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#A1" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			
+
+            <!-- Slide begin -->
+            <div id="A1" class="col-12 fullheight defaulttext A1">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#L8" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted A1"><h6>Analysis</h6></div>
+            <div class="col-sm-12 text-primary"><h5>Rathcroghan<sup>&nbsp;1</sup> - Corn Hill<sup>&nbsp;2</sup></h5></div>
+            <div class="col-sm-12" style="height:15px;"></div>
+            <div class="col-sm-12 text-muted"><h6>Premise</h6></div>
+            <div class="col-sm-12"><p>Rathcroghan mound is positioned to observe the equinox sun rise from Corn Hill.</p></div>
+            <div class="col-sm-12 text-muted"><h6>Modeling</h6></div>
+            <div class="col-sm-12"><p>Viewed from the Rathcroghan mound, Corn Hill is visible on the viewshed horizon at an azimuth of 88.91774° and an elevation of 0.03752°.</p></div>
+            <div class="col-sm-12 text-center"><p><a href="#" class="btn btn-primary btn-round btn-block active" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zqYF1B_Ur6s" aria-pressed="true"><i class="fab fa-youtube"></i>&nbsp;View Rathcroghan Equinox Simulation</a></p></div>
+			<div class="col-sm-12 text-muted"><h6>Visual Confirmation</h6></div>
+            <div class="col-sm-12"><p>On the morning of Friday 20th March 2020 at Rathcroghan mound, I observed and photographed the equinox sun rise from Corn Hill.</p></div>
+            <div class="col-sm-12 text-center"><p><button id="Rathcroghan-images" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#RathcroghanImages"><i class="fa fa-image"></i>&nbsp;View Rathcroghan Equinox Images</button></p></div>
+            
+            
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#A2" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+
+
+            
+            <!-- Slide begin -->
+            <div id="A2" class="col-12 fullheight defaulttext A2">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#A1" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted A2"><h6>Analysis</h6></div>
+            <div class="col-sm-12 text-primary"><h5>Rathra<sup>&nbsp;3</sup> - Croaghpatrick<sup>&nbsp;4</sup></h5></div>
+            <div class="col-sm-12" style="height:15px;"></div>
+            <div class="col-sm-12 text-muted"><h6>Premise</h6></div>
+            <div class="col-sm-12"><p>Rathra ceremonial enclosure is positioned to observe the equinox sun set into Croaghpatrick.</p></div>
+            <div class="col-sm-12 text-muted"><h6>Modeling</h6></div>
+            <div class="col-sm-12"><p>Viewed from the Rathra, Croaghpatrick is visible on the viewshed horizon at an azimuth of 270.81622° and an elevation of 0.12465°.</p></div>
+            <div class="col-sm-12 text-center"><p><a href="#" class="btn btn-primary btn-round btn-block active" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/dY0k1Ddzv9w" aria-pressed="true"><i class="fab fa-youtube"></i>&nbsp;View Rathra Equinox Simulation</a></p></div>
+			<div class="col-sm-12 text-muted"><h6>Visual Confirmation</h6></div>
+            <div class="col-sm-12"><p>At Rathra on the evening of the autumn equinox 2013, Con Connor observed and photograped the sun set into Croaghpatrick.</p></div>
+            <div class="col-sm-12 text-center"><p><button id="Rathra-images" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#RathraImages"><i class="fa fa-image"></i>&nbsp;View Rathra Equinox Images</button></p></div>
+            
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#A3" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+
+
+            <!-- Slide begin -->
+            <div id="A3" class="col-12 fullheight defaulttext A3">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#A2" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted A3"><h6>Analysis</h6></div>
+            <div class="col-sm-12 text-primary"><h5>Castleteheen<sup>&nbsp;7</sup> - Croaghpatrick<sup>&nbsp;4</sup></h5></div>
+            <div class="col-sm-12" style="height:15px;"></div>
+            <div class="col-sm-12 text-muted"><h6>Premise</h6></div>
+            <div class="col-sm-12"><p>Castleteheen Bowl Barrow is positioned to observe the equinox sun set into Croaghpatrick.</p></div>
+            <div class="col-sm-12 text-muted"><h6>Modeling</h6></div>
+            <div class="col-sm-12"><p>Viewed from the Castleteheen Bowl Barrow, Croaghpatrick is visible on the viewshed horizon at an azimuth of 271.0933° and an elevation of 0.10777°.</p></div>
+            <div class="col-sm-12 text-center"><p><button id="Castleteheen-setimage" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#CastleteheenSetImage"><i class="fa fa-image"></i>&nbsp;Castleteheen Equinox Set Simulation</button></p></div>
+			<div class="col-sm-12 text-muted"><h6>Visual Confirmation Opportunity</h6></div>
+            <div class="col-sm-12"><p>The next opportunity to observe and confirm this event will be Tuesday, 22 September 2020.</p></div>
+            
+			
+			<!-- Images Placeholder
+			<div class="col-sm-12 text-center"><p><button id="Rathcroghan-images" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#RathcroghanImages"><i class="fa fa-image"></i>&nbsp;View Rathcroghan Equinox Images</button></p></div>
+            -->  
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#A4" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			<!-- Slide begin -->
+            <div id="A4" class="col-12 fullheight defaulttext A4">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#A3" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted A4"><h6>Analysis</h6></div>
+            <div class="col-sm-12 text-primary"><h5>Castleteheen<sup>&nbsp;7</sup> - Carn Lamha<sup>&nbsp;6</sup></h5></div>
+            <div class="col-sm-12" style="height:15px;"></div>
+            <div class="col-sm-12 text-muted"><h6>Premise</h6></div>
+            <div class="col-sm-12"><p>Castleteheen Bowl Barrow is positioned to observe the equinox sun rise from Carn Lamha.</p></div>
+			<div class="col-sm-12 text-muted"><h6>Modeling</h6></div>
+            <div class="col-sm-12"><p>Viewed from the Castleteheen Bowl Barrow, Carn Lamha is visible on the viewshed horizon at an azimuth of 88.86867° and an elevation of -0.16699°.</p></div>
+            <div class="col-sm-12 text-center"><p><button id="Castleteheen-riseimage" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#CastleteheenRiseImage"><i class="fa fa-image"></i>&nbsp;Castleteheen Equinox Rise Simulation</button></p></div>
+            <div class="col-sm-12"><p>The next opportunity to observe and confirm this event will be Tuesday, 22 September 2020.</p></div>
+			
+			<!-- Images Placeholder
+            <div class="col-sm-12 text-center"><p><button id="Rathcroghan-images" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#RathcroghanImages"><i class="fa fa-image"></i>&nbsp;View Rathcroghan Equinox Images</button></p></div>
+            -->  
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#A5" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+
+
+            <!-- Slide begin -->
+            <div id="A5" class="col-12 fullheight defaulttext A5">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#A4" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted A5"><h6>Analysis</h6></div>
+            <div class="col-sm-12 text-primary"><h5>Lisheen<sup>&nbsp;8</sup> - Croaghpatrick<sup>&nbsp;4</sup></h5></div>
+            <div class="col-sm-12" style="height:15px;"></div>
+            <div class="col-sm-12 text-muted"><h6>Premise</h6></div>
+            <div class="col-sm-12"><p>Lisheen Bowl Barrow is positioned to observe the equinox sun set into Croaghpatrick.</p></div>
+			<div class="col-sm-12 text-muted"><h6>Modeling</h6></div>
+            <div class="col-sm-12"><p>Viewed from the Lisheen Bowl Barrow, Croaghpatrick is visible on the viewshed horizon at an azimuth of 270.90881° and an elevation of 0.07105°.</p></div>
+            <div class="col-sm-12 text-center"><p><button id="Lisheen-setimage" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#LisheenSetImage"><i class="fa fa-image"></i>&nbsp;Lisheen Equinox Set Simulation</button></p></div>
+			<div class="col-sm-12 text-muted"><h6>Visual Confirmation Opportunity</h6></div>
+            <div class="col-sm-12"><p>The next opportunity to observe and confirm this event will be Tuesday, 22 September 2020.</p></div>
+			
+			<!-- Images Placeholder
+            <div class="col-sm-12 text-center"><p><button id="Rathcroghan-images" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#RathcroghanImages"><i class="fa fa-image"></i>&nbsp;View Rathcroghan Equinox Images</button></p></div>
+            -->  
+            
+            
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#A6" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			<!-- Slide begin -->
+            <div id="A6" class="col-12 fullheight defaulttext A6">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#A5" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted A6"><h6>Analysis</h6></div>
+            <div class="col-sm-12 text-primary"><h5>Lisheen<sup>&nbsp;8</sup> - Carnfraech<sup>&nbsp;5</sup></h5></div>
+            <div class="col-sm-12" style="height:15px;"></div>
+            <div class="col-sm-12 text-muted"><h6>Premise</h6></div>
+            <div class="col-sm-12"><p>Lisheen Bowl Barrow is positioned to observe the equinox sun rise from Carnfraech.</p></div>
+			<div class="col-sm-12 text-muted"><h6>Modeling</h6></div>
+            <div class="col-sm-12"><p>Viewed from the Lisheen Bowl Barrow, Carn Fraech is visible on the viewshed horizon at an azimuth of 89.1534° and an elevation of -0.18892°.</p></div>
+            <div class="col-sm-12 text-center"><p><button id="Lisheen-riseimage" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#LisheenRiseImage"><i class="fa fa-image"></i>&nbsp;Lisheen Equinox Rise Simulation</button></p></div>
+			<div class="col-sm-12 text-muted"><h6>Visual Confirmation Opportunity</h6></div>
+            <div class="col-sm-12"><p>The next opportunity to observe and confirm this event will be Tuesday, 22 September 2020.</p></div>
+			
+			<!-- Images Placeholder
+            <div class="col-sm-12 text-center"><p><button id="Rathcroghan-images" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#RathcroghanImages"><i class="fa fa-image"></i>&nbsp;View Rathcroghan Equinox Images</button></p></div>
+            -->
+            
+            
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#A7" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+
+
+            <!-- Slide begin -->
+            <div id="A7" class="col-12 fullheight defaulttext A7">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#A6" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted A7"><h6>Analysis</h6></div>
+            <div class="col-sm-12 text-primary"><h5>Carn Lamha<sup>&nbsp;6</sup> - Lisheen<sup>&nbsp;8</sup></h5></div>
+            <div class="col-sm-12" style="height:15px;"></div>
+            <div class="col-sm-12 text-muted"><h6>Premise</h6></div>
+            <div class="col-sm-12"><p>Carn Lamha is positioned to observe the equinox sun set into Lisheen Bowl Barrow.</p></div>
+			<div class="col-sm-12 text-muted"><h6>Modeling</h6></div>
+            <div class="col-sm-12"><p>Viewed from Carn Lamha, Lisheen Bowl Barrow is visible on the viewshed horizon at an azimuth of 271.07826° and an elevation of 0.10714°.</p></div>
+            <div class="col-sm-12 text-center"><p><button id="Carnlamha-setimage" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#CarnlamhaSetImage"><i class="fa fa-image"></i>&nbsp;Carnlamha Equinox Set Simulation</button></p></div>
+			<div class="col-sm-12 text-muted"><h6>Visual Confirmation Opportunity</h6></div>
+            <div class="col-sm-12"><p>The next opportunity to observe and confirm this event will be Tuesday, 22 September 2020.</p></div>
+			
+			<!-- Images Placeholder
+            <div class="col-sm-12 text-center"><p><button id="Rathcroghan-images" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#RathcroghanImages"><i class="fa fa-image"></i>&nbsp;View Rathcroghan Equinox Images</button></p></div>
+            -->
+            
+            
+            <!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#S1" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>   
+                
+            
+            </div>
+            <!-- Slide end -->
+
+
+            
+            
+
+
+            <!-- Slide begin -->
+            <div id="S1" class="col-12 fullheight defaulttext S1">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#A7" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted S1"><h6>Summary</h6></div>
+            <div class="col-sm-12 text-primary"><h5>Context</h5></div>
+            
+            <div class="col-sm-12"><p>The essential premise I am exploring is whether the ancient Irish have been cognizant of, and are deliberately observing, inter-site astronomic relationships. This has certainly been the case within the passage tomb and standing stone traditions. Frank Prendergast has demonstrated that certain passage tombs have passages which can be described as directed at other cairns, and other passage tombs which can be described as directed at another cairn and are ALSO aligned on a divisional day horizon event.</p></div>
+			
+            <div class="col-sm-12"><p>In my examination I am seeking to determine and demonstrate where similar relationships might be said to exist not just with passage tombs, but also with other monument types such as henges, barrows etc.</p></div>
+			<div class="col-sm-12"><p><i>Rush Passage Tomb - an example of a directed and aligned cairn.</i></p></div>
+			<div class="col-sm-12 text-center"><p><button id="RushLambay-image" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#RushLambayImage"><i class="fa fa-image"></i>&nbsp;Rush Lambay Simulation</button></p></div>
+            
+			
+			<!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#S2" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			
+			
+			<!-- Slide begin -->
+            <div id="S2" class="col-12 fullheight defaulttext S2">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#S1" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted S2"><h6>Summary</h6></div>
+                        
+            <div class="col-sm-12 text-primary"><h5>The Equinox</h5></div>
+            <div class="col-sm-12"><p>An equinox is commonly regarded as the instant of time when the plane (extended indefinitely in all directions) of Earth's equator passes through the geometric center of the Sun's disk. In simpler terms, those days comprising equal night and day. This occurs twice each year, around 20 March and 23 September. It is certain this has been observed since neolithic times, with many passage tombs aligned for the equinox.</p></div>
+			<div class="col-sm-12"><p>In this presentation, for demonstrative purposes, I have very deliberately selected a series of potential equinox inter-site relationships, as these can still be observed and photographed today. For the other divisional day, and lunar extremes, the sun/moon rise/set positions on the horizon are changing over time. These are no longer observable but are identifiable using computer models. </p>
+            </div>
+			<div class="col-sm-12"><p><i>Shrough Passage Tomb - an example of a directed and equinox aligned cairn.</i></p></div>
+			<div class="col-sm-12 text-center"><p><button id="ShroughSliabhnaMban-image" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#ShroughSliabhnamBanImage"><i class="fa fa-image"></i>&nbsp;Shrough Sliabh na mBan Simulation</button></p></div>
+            <div class="col-sm-12"><p></p></div>
+            
+			
+			<!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#S3" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			
+			
+			<!-- Slide begin -->
+            <div id="S3" class="col-12 fullheight defaulttext S3">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#S2" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted S3"><h6>Summary</h6></div>
+                        
+            <div class="col-sm-12 text-primary"><h5>The Spéire Project</h5></div>
+            <div class="col-sm-12"><p>The examples given in this presentation are a very small extract from a comprehensive examination of hundreds of Irish prehistoric archaeological sites, and locations of significance in Irish mythology. I call this work the Spéire project. As detailed in the introductory premise for this presentation, the objective is to explore the potential that the ancient Irish afforded special significance to locations where they could observe, on specific divisional days of the year, the sun rise from, or set into, what they regarded as sacred mountains. If the premise was correct, it stands to reason very many of these relationships should exist, and be readily identifiable. It is my intention to demonstrate and chart these inter-relationships.</p></div>
+			
+			<div class="col-sm-12"><p>A selection of computer modeled images is presented below supporting the concept.</p></div>
+			<div class="col-sm-12"><p><i>Spéire is due for release in 2021.</i></p></div>
+			<div class="col-sm-12 text-center"><p><button id="Speire-images" type="button" class="btn btn-primary btn-round btn-block" data-toggle="modal" data-target="#SpeireImages"><i class="fa fa-image"></i>&nbsp;Spéire Examples</button></p></div>
+			
+            <div class="col-sm-12"><p></p></div>
+            
+			
+			<!-- Slide nav down -->
+            <div class="col-sm-12 text-center"><a href="#S4" <i class="fas fa-angle-down" style="font-size:36px"></i></a></div>
+            
+            </div>
+            <!-- Slide end -->
+			
+			
+			
+			<!-- Slide begin -->
+            <div id="S4" class="col-12 fullheight defaulttext S4">
+            
+            <!-- Slide nav up -->    
+            <div class="col-sm-12 text-center"><a href="#S3" <i class="fas fa-angle-up" style="font-size:36px"></i></a></div>
+                
+            <!-- Slide content -->
+            <div class="col-sm-12 text-muted S4"><h6>Created by: Brian Doyle 2020</h6></div>
+            <div class="col-sm-12 text-primary"><h5>With Thanks to:</h5></div>
+            <div class="col-sm-12"><p><ul style="list-style: none;">
+            <li><i class="fas fa-thumbs-up"></i>&nbsp;Victor Reijs - www.archaeocosmology.org</li>
+            <li><i class="fas fa-thumbs-up"></i>&nbsp;Chris Veness - www.movable-type.co.uk </li>
+            <li><i class="fas fa-thumbs-up"></i>&nbsp;Vladimir Agafonkin - https://agafonkin.com</li>
+            <li><i class="fas fa-thumbs-up"></i>&nbsp;Michael Kosowsky - www.heywhatsthat.com</li>
+            <li><i class="fas fa-thumbs-up"></i>&nbsp;Georg Zotti - Stellarium</li>
+            <li><i class="fas fa-thumbs-up"></i>&nbsp;Con Connor - Equinox Images</li>    
+            </ul></p></div>
+            <div class="col-sm-12"><p>Should any of the ideas presented here prove to be correct, this has been made possible through the resources, tools and software that have been made freely available by others, and most particularly those listed above.</p></div>
+            <div class="col-sm-12"><p>Any misconceptions or errors are entirely my own.</p></div>
+            <div class="col-sm-12 text-primary"><h5>License:</h5></div>
+            <div class="col-sm-12"><p>This presentation is issued with an MIT license. A copy of the license plus all materials used to create the presentation is available @</p>
+            <p><a href="https://github.com/briandoylegit/cruachanequinox2" class="text-primary" target="_blank" title="Go to github"><i class="fab fa-github"></i>&nbsp;https://github.com/briandoylegit/cruachanequinox2</a></p>
+            <p><a href="mailto: briandoyle.kerbstone52@gmail.com" class="text-primary" target="_blank" title="Go to github"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;briandoyle.kerbstone52@gmail.com</a></p></div>
+            
+                
+            
+            </div>
+            <!-- Slide end -->
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        </div>
+
+
+
+
+
+<!-- Youtube Modal -->
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-dark border-dark">
+          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body bg-dark p-0">
+          <!-- BS4 Responsive Embed -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Youtube Modal -->
+
+<!-- Rathra Images Modal -->
+<div class="modal fade" id="RathraImages" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+     <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+     <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+     <li data-target="#carousel-example-1z" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/rathra1.jpg" alt="First slide">
+         <div class="carousel-caption">
+        Image 1. Rathra equinox sun sets into Croagh Patrick, Autumn Equinox 2013. Photograph by Con Connor© 
+      </div>
+     </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/rathra2.jpg" alt="Second slide">
+         <div class="carousel-caption">
+        Image 2. Rathra equinox sun sets into Croagh Patrick, Autumn Equinox 2013. Photograph by Con Connor© 
+      </div>
+     </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/rathra3.jpg" alt="Third slide">
+         <div class="carousel-caption">
+        Image 3. Rathra equinox sun sets into Croagh Patrick, Autumn Equinox 2013. Photograph by Con Connor© 
+      </div>
+     </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/rathra4.jpg" alt="Third slide">
+         <div class="carousel-caption">
+        Image 4. Rathra equinox sun sets into Croagh Patrick, Autumn Equinox 2013. Photograph by Con Connor© 
+      </div>
+     </div>
+    </div>
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+    </a>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Rathra Images Modal -->
+
+
+<!-- Rathcroghan Images Modal -->
+<div class="modal fade" id="RathcroghanImages" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1y" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1y" data-slide-to="0" class="active"></li>
+     <li data-target="#carousel-example-1y" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/rathcroghansunrise.jpg" alt="First slide">
+         <div class="carousel-caption">
+        Image 1. Rathrcroghan equinox sun rises out of Corn Hill, Spring Equinox 2020. Photograph by Brian Doyle© 
+      </div>
+     </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/rathcroghansunrisezoom.jpg" alt="Second slide">
+         <div class="carousel-caption">
+        Image 2. Rathrcroghan equinox sun rises out of Corn Hill, Spring Equinox 2020. Photograph by Brian Doyle© 
+      </div>
+     </div>
+    </div>
+    <a class="carousel-control-prev" href="#carousel-example-1y" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1y" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+    </a>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Rathcroghan Images Modal -->
+
+
+<!-- Castleteheen Images Set Modal -->
+<div class="modal fade" id="CastleteheenSetImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1x" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1x" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/CastleteheenCroaghpatrick.png" alt="First slide">
+         <div class="carousel-caption">
+        Viewed from Castleteheen Bowl Barrow, The equinox sun can be observed to set into Croagh Patrick. 
+      </div>
+     </div>
+     
+     </div>
+    </div>
+    
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Castleteheen Images Set Modal -->
+
+
+<!-- Castleteheen Images Rise Modal -->
+<div class="modal fade" id="CastleteheenRiseImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1q" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1q" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/CastleteheenCarnlamha.png" alt="First slide">
+         <div class="carousel-caption">
+        Viewed from Castleteheen Bowl Barrow, The equinox sun can be observed to rise from Carn Lamha. 
+      </div>
+     </div>
+     
+     </div>
+    </div>
+    
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Castleteheen Images Set Modal -->
+
+
+<!-- Lisheen Images Set Modal -->
+<div class="modal fade" id="LisheenSetImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1r" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1r" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/LisheenCroaghpatrick.png" alt="First slide">
+         <div class="carousel-caption">
+        Viewed from Lisheen Bowl Barrow, The equinox sun can be observed to set into Croagh Patrick. 
+      </div>
+     </div>
+     
+     </div>
+    </div>
+    
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Lisheen Images Set Modal -->
+
+
+<!-- Lisheen Images Rise Modal -->
+<div class="modal fade" id="LisheenRiseImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1m" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1m" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/LisheenCarnfraech.png" alt="First slide">
+         <div class="carousel-caption">
+        Viewed from Lisheen Bowl Barrow, The equinox sun can be observed to rise from Carn Fraech. 
+      </div>
+     </div>
+     
+     </div>
+    </div>
+    
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Lisheen Images Rise Modal -->
+
+
+<!-- Carn Lamha Images Set Modal -->
+<div class="modal fade" id="CarnlamhaSetImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1s" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1s" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/CarnlamhaLisheen.png" alt="First slide">
+         <div class="carousel-caption">
+        Viewed from Carn Lamha Bowl Barrow, The equinox sun can be observed to set into Lisheen Bowl Barrow. 
+      </div>
+     </div>
+     
+     </div>
+    </div>
+    
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Carn Lamha Images Set Modal -->
+
+
+<!-- Rush Lambay Images Modal -->
+<div class="modal fade" id="RushLambayImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1l" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1l" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/RushLambay.png" alt="First slide">
+         <div class="carousel-caption">
+        The Rush passage tomb has a passage which directs at the cairn on the summit of Knockbane on Lambay Island. At the winter solstice the sun would appear to rise out of this cairn and a shaft of light would penetrate the Rush passage tomb. 
+      </div>
+     </div>
+     
+     </div>
+    </div>
+    
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Rush Lambay Images Modal -->
+
+
+<!-- Shrough Sliabh na mBan Images Modal -->
+<div class="modal fade" id="ShroughSliabhnamBanImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1t" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1t" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/ShroughSliabhnamBan.png" alt="First slide">
+         <div class="carousel-caption">
+        The Shrough passage tomb has a passage which directs at the cairn on the summit of Sliabh na mBan. At the equinox the sun would appear to rise out of this cairn and a shaft of light would penetrate the Shrough passage tomb. 
+      </div>
+     </div>
+     
+     </div>
+    </div>
+    
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Shrough Sliabh na mBan Modal -->
+
+
+<!-- Speire Images Modal -->
+<div class="modal fade" id="SpeireImages" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+   <div id="carousel-example-1f" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carousel-example-1f" data-slide-to="0" class="active"></li>
+     <li data-target="#carousel-example-1f" data-slide-to="1"></li>
+     <li data-target="#carousel-example-1f" data-slide-to="2"></li>
+     <li data-target="#carousel-example-1f" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/ListoghilPassageTomb.png" alt="First slide">
+         <div class="carousel-caption">
+        Image 1. (Passage Tombs) In the neolithic, circa 3400bc, from the Listoghil Passage Tomb (Carrowmore), the moon at the Southmost Minor Lunar Standstill, could be observed to rise from the Carrownamaddoo Passage Tomb. 
+      </div>
+     </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Carrownamaddoo.png" alt="Second slide">
+         <div class="carousel-caption">
+        Image 2. (Passage Tombs) In the neolithic, circa 3400bc, from the Carrownamaddoo Passage Tomb (Ballygawley Hills) multiple horizon events are evident, including the sun at the Northmost Crossquarter, could be observed to set into Maeve's Cairn - Knocknarea.
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Kilrusheighter.png" alt="Second slide">
+         <div class="carousel-caption">
+        Image 3. (Passage Tombs) In the neolithic, circa 3400bc, from the Kilrusheighter Passage Tomb, multiple horizon events are evident, including at equinox the sun could be observed to rise from Maeve's Cairn - Knocknarea.
+      </div>
+     </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Tonafortes.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 4. (Henges - Embanked Enclosures) In the neolithic, circa 3400bc, from the Tonafortes Henge, 2 horizon events are evident with cairns in the Ballygawley Hills, including at the winter solstice the sun could be observed to rise from the cairn at the summit of Slieve Daene.
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Cummeen.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 5. (Henges - Embanked Enclosures) In the neolithic, circa 3400bc, from Cummeen Embanked Enclosure, multiple horizon events are evident, including at the winter solstice the sun could be observed to rise from the Aghamore cairn in the Ballygawley Hills.
+      </div>
+     </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Uisneach.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 6. (Mythologically Associated) In the neolithic, circa 3400bc, viewed from the 'St Patrick's Bed' Cairn on the summit of Uisneach Hill, at the summer solstice, the sun could be observed to rise out of Cairn D - Carbane West, Loughcrew. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/HillofAllen.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 7. (Mythologically Associated) In the neolithic, circa 3400bc, viewed from the cairn on the summit of The Hill of Allen (Seat of Fionn mac Cumhaill), the moon at the northmost minor lunar standstill could be observed to set into the Hill of Uisneach. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/MoundoftheHostages.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 8. (Mythologically Associated) In the neolithic, circa 3400bc, viewed from the Mound of the Hostages passage tomb - The Hill of Tara, the sun at the northmost crossquarter could be observed to set into the cairn on Patrickstown Hill, the easternmost of the hills which comprise the Loughcrew passage tomb complex. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Clonasillagh.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 9. (Passage Tombs) In the neolithic, circa 3400bc, viewed from the Clonasillagh passage tomb, the sun at the southmost crossquarter could be observed to set into the cairn on Patrickstown Hill (Loughcrew). 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/RathMaeve.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 10. (Henges - Embanked Enclosures) In the neolithic, circa 3400bc, viewed from the Rathmaeve Henge, the moon at the northmost minor standstill could be observed to set into the cairn on Patrickstown Hill (Loughcrew). 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Patrickstown.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 11. (Mythologically Associated) In the neolithic, circa 3400bc, viewed from the cairn on Patrickstown Hill (Loughcrew), the sun at the summer solstice could be observed to rise out of Slieve Gullion. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/SlieveGullion.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 12. (Passage Tombs) In the neolithic, circa 3400bc, viewed from the Slieve Gullion passage tomb, the moon at the southmost minor lunar standstill could be observed to rise out of the Clermont Cairn passage tomb. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/MeayllHill.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 13. (Passage Tombs) In the neolithic, circa 3400bc, viewed from the Meayll Hill chambered cairn site (Isle of Man), across the irish sea, at the equinoxs, the sun can be observed to set into Clermont Cairn passage tomb. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/HillofSlane.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 14. (Mythologically Associated) In the neolithic, circa 3400bc, viewed from the motte on the Hill of Slane, the sun at the winter solstice could be observed to rise out of Four Knocks passage tomb. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/HillofSlaneBoyne.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 15. (Mythologically Associated) Viewed from the motte on the Hill of Slane, the sun at the equinoxs can be observed to rise out of Inver Colpa (The mouth of the Boyne). 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Newgrange.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 16. (Mythologically Associated) The Newgrange passage tomb is world famous for it's winter solstice aligned passage. In the neolithic, circa 3400bc, it can also be described as having a northmost crossquarter sun set relationship with the mythologically significant Hill of Slane. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Heapstown.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 17. (Passage Tombs) In the neolithic, circa 3400bc, viewed from the Heapstown passage tomb, the moon at the southmost major lunar standstill, could be observed to set into the Cairn K passage tomb - Carrowkeel. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Sheelugh.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 18. (Passage Tombs) In the neolithic, circa 3400bc, viewed from the Barroe North (Shee Lugh) passage tomb, the moon at the southmost minor lunar standstill, could be observed to set into the Cairn G passage tomb - Carrowkeel. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/SheelughOrion.png" alt="Third slide">
+         <div class="carousel-caption">
+        Image 19. (Passage Tombs - Stars) In the neolithic, circa 3400bc, viewed from the Barroe North (Shee Lugh) passage tomb, Alnitak - one of the stars that comprise Orion's Belt, could be observed to set into the Cairn G passage tomb - Carrowkeel. 
+      </div>
+     </div>
+	 <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Speire.png" alt="Third slide">
+         <div class="carousel-caption text-secondary">
+        Image 20. (The Spéire Project) Exploring, Demonstrating, Charting the Astronomic and Geographic inter-relationships of Irish Prehistoric Sites.  
+      </div>
+     </div>
+    </div>
+    <a class="carousel-control-prev" href="#carousel-example-1f" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1f" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+    </a>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- Rathra Images Modal -->
+
+
+    </main><!-- /.container -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+    <!-- Additional JavaScript
+    ================================================== -->
+    
+    <script src="js/leaflet-bing-layer.js"></script>
+    <script src="js/Leaflet.Geodesic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdn.jsdelivr.net/combine/npm/smartwizard@4.3.1,npm/file-saver@2.0.2,npm/leaflet-filelayer@1.2.0,npm/leaflet-extra-markers@1.1.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-labeled-circle@1.0.1/dist/L.LabeledCircle.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  // Set iframe attributes when the show instance method is called
+  $("#videoModal").on("show.bs.modal", function(event) {
+    let button = $(event.relatedTarget); // Button that triggered the modal
+    let url = button.data("video");      // Extract url from data-video attribute
+
+    $(this).find("iframe").attr({
+        src: url,
+        allow : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    });
+  });
+
+  // Remove iframe attributes when the modal has finished being hidden from the user
+  $("#videoModal").on("hidden.bs.modal", function() {
+    $("#videoModal iframe").removeAttr("src allow");
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+        
+        
+        /* Rathcroghan Visibility Cloak Horizon Images Overlay*/
+
+/* 51 */
+var RathcroghanimageUrlN51W004 = './assets/img/Rathcroghan/cloakpN51W004.png',
+      RathcroghanimageBoundsN51W004 = [[51, -4], [52, -3]];
+      var RathcroghanimagegroupN51W004 = L.imageOverlay(RathcroghanimageUrlN51W004, RathcroghanimageBoundsN51W004, {opacity: 0.25});
+
+var RathcroghanimageUrlN51W005 = './assets/img/Rathcroghan/cloakpN51W005.png',
+      RathcroghanimageBoundsN51W005 = [[51, -5], [52, -4]];
+      var RathcroghanimagegroupN51W005 = L.imageOverlay(RathcroghanimageUrlN51W005, RathcroghanimageBoundsN51W005, {opacity: 0.25});
+
+var RathcroghanimageUrlN51W006 = './assets/img/Rathcroghan/cloakpN51W006.png',
+      RathcroghanimageBoundsN51W006 = [[51, -6], [52, -5]];
+      var RathcroghanimagegroupN51W006 = L.imageOverlay(RathcroghanimageUrlN51W006, RathcroghanimageBoundsN51W006, {opacity: 0.25});
+
+var RathcroghanimageUrlN51W007 = './assets/img/Rathcroghan/cloakpN51W007.png',
+      RathcroghanimageBoundsN51W007 = [[51, -7], [52, -6]];
+      var RathcroghanimagegroupN51W007 = L.imageOverlay(RathcroghanimageUrlN51W007, RathcroghanimageBoundsN51W007, {opacity: 0.25});
+
+var RathcroghanimageUrlN51W008 = './assets/img/Rathcroghan/cloakpN51W008.png',
+      RathcroghanimageBoundsN51W008 = [[51, -8], [52, -7]];
+      var RathcroghanimagegroupN51W008 = L.imageOverlay(RathcroghanimageUrlN51W008, RathcroghanimageBoundsN51W008, {opacity: 0.25});
+
+var RathcroghanimageUrlN51W009 = './assets/img/Rathcroghan/cloakpN51W009.png',
+      RathcroghanimageBoundsN51W009 = [[51, -9], [52, -8]];
+      var RathcroghanimagegroupN51W009 = L.imageOverlay(RathcroghanimageUrlN51W009, RathcroghanimageBoundsN51W009, {opacity: 0.25});
+
+var RathcroghanimageUrlN51W010 = './assets/img/Rathcroghan/cloakpN51W010.png',
+      RathcroghanimageBoundsN51W010 = [[51, -10], [52, -9]];
+      var RathcroghanimagegroupN51W010 = L.imageOverlay(RathcroghanimageUrlN51W010, RathcroghanimageBoundsN51W010, {opacity: 0.25});	  
+	  
+var RathcroghanimageUrlN51W011 = './assets/img/Rathcroghan/cloakpN51W011.png',
+      RathcroghanimageBoundsN51W011 = [[51, -11], [52, -10]];
+      var RathcroghanimagegroupN51W011 = L.imageOverlay(RathcroghanimageUrlN51W011, RathcroghanimageBoundsN51W011, {opacity: 0.25});
+
+
+/* 52 */
+var RathcroghanimageUrlN52W004 = './assets/img/Rathcroghan/cloakpN52W004.png',
+      RathcroghanimageBoundsN52W004 = [[52, -4], [53, -3]];
+      var RathcroghanimagegroupN52W004 = L.imageOverlay(RathcroghanimageUrlN52W004, RathcroghanimageBoundsN52W004, {opacity: 0.25});
+
+var RathcroghanimageUrlN52W005 = './assets/img/Rathcroghan/cloakpN52W005.png',
+      RathcroghanimageBoundsN52W005 = [[52, -5], [53, -4]];
+      var RathcroghanimagegroupN52W005 = L.imageOverlay(RathcroghanimageUrlN52W005, RathcroghanimageBoundsN52W005, {opacity: 0.25});
+
+var RathcroghanimageUrlN52W006 = './assets/img/Rathcroghan/cloakpN52W006.png',
+      RathcroghanimageBoundsN52W006 = [[52, -6], [53, -5]];
+      var RathcroghanimagegroupN52W006 = L.imageOverlay(RathcroghanimageUrlN52W006, RathcroghanimageBoundsN52W006, {opacity: 0.25});
+
+var RathcroghanimageUrlN52W007 = './assets/img/Rathcroghan/cloakpN52W007.png',
+      RathcroghanimageBoundsN52W007 = [[52, -7], [53, -6]];
+      var RathcroghanimagegroupN52W007 = L.imageOverlay(RathcroghanimageUrlN52W007, RathcroghanimageBoundsN52W007, {opacity: 0.25});
+
+var RathcroghanimageUrlN52W008 = './assets/img/Rathcroghan/cloakpN52W008.png',
+      RathcroghanimageBoundsN52W008 = [[52, -8], [53, -7]];
+      var RathcroghanimagegroupN52W008 = L.imageOverlay(RathcroghanimageUrlN52W008, RathcroghanimageBoundsN52W008, {opacity: 0.25});
+
+var RathcroghanimageUrlN52W009 = './assets/img/Rathcroghan/cloakpN52W009.png',
+      RathcroghanimageBoundsN52W009 = [[52, -9], [53, -8]];
+      var RathcroghanimagegroupN52W009 = L.imageOverlay(RathcroghanimageUrlN52W009, RathcroghanimageBoundsN52W009, {opacity: 0.25});
+
+var RathcroghanimageUrlN52W010 = './assets/img/Rathcroghan/cloakpN52W010.png',
+      RathcroghanimageBoundsN52W010 = [[52, -10], [53, -9]];
+      var RathcroghanimagegroupN52W010 = L.imageOverlay(RathcroghanimageUrlN52W010, RathcroghanimageBoundsN52W010, {opacity: 0.25});	  
+	  
+var RathcroghanimageUrlN52W011 = './assets/img/Rathcroghan/cloakpN52W011.png',
+      RathcroghanimageBoundsN52W011 = [[52, -11], [53, -10]];
+      var RathcroghanimagegroupN52W011 = L.imageOverlay(RathcroghanimageUrlN52W011, RathcroghanimageBoundsN52W011, {opacity: 0.25});	  
+	  
+	  
+	  
+/* 53 */
+var RathcroghanimageUrlN53W004 = './assets/img/Rathcroghan/cloakpN53W004.png',
+      RathcroghanimageBoundsN53W004 = [[53, -4], [54, -3]];
+      var RathcroghanimagegroupN53W004 = L.imageOverlay(RathcroghanimageUrlN53W004, RathcroghanimageBoundsN53W004, {opacity: 0.25});
+
+var RathcroghanimageUrlN53W005 = './assets/img/Rathcroghan/cloakpN53W005.png',
+      RathcroghanimageBoundsN53W005 = [[53, -5], [54, -4]];
+      var RathcroghanimagegroupN53W005 = L.imageOverlay(RathcroghanimageUrlN53W005, RathcroghanimageBoundsN53W005, {opacity: 0.25});
+
+var RathcroghanimageUrlN53W006 = './assets/img/Rathcroghan/cloakpN53W006.png',
+      RathcroghanimageBoundsN53W006 = [[53, -6], [54, -5]];
+      var RathcroghanimagegroupN53W006 = L.imageOverlay(RathcroghanimageUrlN53W006, RathcroghanimageBoundsN53W006, {opacity: 0.25});
+
+var RathcroghanimageUrlN53W007 = './assets/img/Rathcroghan/cloakpN53W007.png',
+      RathcroghanimageBoundsN53W007 = [[53, -7], [54, -6]];
+      var RathcroghanimagegroupN53W007 = L.imageOverlay(RathcroghanimageUrlN53W007, RathcroghanimageBoundsN53W007, {opacity: 0.25});
+
+var RathcroghanimageUrlN53W008 = './assets/img/Rathcroghan/cloakpN53W008.png',
+      RathcroghanimageBoundsN53W008 = [[53, -8], [54, -7]];
+      var RathcroghanimagegroupN53W008 = L.imageOverlay(RathcroghanimageUrlN53W008, RathcroghanimageBoundsN53W008, {opacity: 0.25});
+
+var RathcroghanimageUrlN53W009 = './assets/img/Rathcroghan/cloakpN53W009.png',
+      RathcroghanimageBoundsN53W009 = [[53, -9], [54, -8]];
+      var RathcroghanimagegroupN53W009 = L.imageOverlay(RathcroghanimageUrlN53W009, RathcroghanimageBoundsN53W009, {opacity: 0.25});
+
+var RathcroghanimageUrlN53W010 = './assets/img/Rathcroghan/cloakpN53W010.png',
+      RathcroghanimageBoundsN53W010 = [[53, -10], [54, -9]];
+      var RathcroghanimagegroupN53W010 = L.imageOverlay(RathcroghanimageUrlN53W010, RathcroghanimageBoundsN53W010, {opacity: 0.25});	  
+	  
+var RathcroghanimageUrlN53W011 = './assets/img/Rathcroghan/cloakpN53W011.png',
+      RathcroghanimageBoundsN53W011 = [[53, -11], [54, -10]];
+      var RathcroghanimagegroupN53W011 = L.imageOverlay(RathcroghanimageUrlN53W011, RathcroghanimageBoundsN53W011, {opacity: 0.25});
+	  
+	  
+
+/* 54 */
+var RathcroghanimageUrlN54W004 = './assets/img/Rathcroghan/cloakpN54W004.png',
+      RathcroghanimageBoundsN54W004 = [[54, -4], [55, -3]];
+      var RathcroghanimagegroupN54W004 = L.imageOverlay(RathcroghanimageUrlN54W004, RathcroghanimageBoundsN54W004, {opacity: 0.25});
+
+var RathcroghanimageUrlN54W005 = './assets/img/Rathcroghan/cloakpN54W005.png',
+      RathcroghanimageBoundsN54W005 = [[54, -5], [55, -4]];
+      var RathcroghanimagegroupN54W005 = L.imageOverlay(RathcroghanimageUrlN54W005, RathcroghanimageBoundsN54W005, {opacity: 0.25});
+
+var RathcroghanimageUrlN54W006 = './assets/img/Rathcroghan/cloakpN54W006.png',
+      RathcroghanimageBoundsN54W006 = [[54, -6], [55, -5]];
+      var RathcroghanimagegroupN54W006 = L.imageOverlay(RathcroghanimageUrlN54W006, RathcroghanimageBoundsN54W006, {opacity: 0.25});
+
+var RathcroghanimageUrlN54W007 = './assets/img/Rathcroghan/cloakpN54W007.png',
+      RathcroghanimageBoundsN54W007 = [[54, -7], [55, -6]];
+      var RathcroghanimagegroupN54W007 = L.imageOverlay(RathcroghanimageUrlN54W007, RathcroghanimageBoundsN54W007, {opacity: 0.25});
+
+var RathcroghanimageUrlN54W008 = './assets/img/Rathcroghan/cloakpN54W008.png',
+      RathcroghanimageBoundsN54W008 = [[54, -8], [55, -7]];
+      var RathcroghanimagegroupN54W008 = L.imageOverlay(RathcroghanimageUrlN54W008, RathcroghanimageBoundsN54W008, {opacity: 0.25});
+
+var RathcroghanimageUrlN54W009 = './assets/img/Rathcroghan/cloakpN54W009.png',
+      RathcroghanimageBoundsN54W009 = [[54, -9], [55, -8]];
+      var RathcroghanimagegroupN54W009 = L.imageOverlay(RathcroghanimageUrlN54W009, RathcroghanimageBoundsN54W009, {opacity: 0.25});
+
+var RathcroghanimageUrlN54W010 = './assets/img/Rathcroghan/cloakpN54W010.png',
+      RathcroghanimageBoundsN54W010 = [[54, -10], [55, -9]];
+      var RathcroghanimagegroupN54W010 = L.imageOverlay(RathcroghanimageUrlN54W010, RathcroghanimageBoundsN54W010, {opacity: 0.25});	  
+	  
+var RathcroghanimageUrlN54W011 = './assets/img/Rathcroghan/cloakpN54W011.png',
+      RathcroghanimageBoundsN54W011 = [[54, -11], [55, -10]];
+      var RathcroghanimagegroupN54W011 = L.imageOverlay(RathcroghanimageUrlN54W011, RathcroghanimageBoundsN54W011, {opacity: 0.25});
+	  
+
+/* 55 */
+var RathcroghanimageUrlN55W004 = './assets/img/Rathcroghan/cloakpN55W004.png',
+      RathcroghanimageBoundsN55W004 = [[55, -4], [56, -3]];
+      var RathcroghanimagegroupN55W004 = L.imageOverlay(RathcroghanimageUrlN55W004, RathcroghanimageBoundsN55W004, {opacity: 0.25});
+
+var RathcroghanimageUrlN55W005 = './assets/img/Rathcroghan/cloakpN55W005.png',
+      RathcroghanimageBoundsN55W005 = [[55, -5], [56, -4]];
+      var RathcroghanimagegroupN55W005 = L.imageOverlay(RathcroghanimageUrlN55W005, RathcroghanimageBoundsN55W005, {opacity: 0.25});
+
+var RathcroghanimageUrlN55W006 = './assets/img/Rathcroghan/cloakpN55W006.png',
+      RathcroghanimageBoundsN55W006 = [[55, -6], [56, -5]];
+      var RathcroghanimagegroupN55W006 = L.imageOverlay(RathcroghanimageUrlN55W006, RathcroghanimageBoundsN55W006, {opacity: 0.25});
+
+var RathcroghanimageUrlN55W007 = './assets/img/Rathcroghan/cloakpN55W007.png',
+      RathcroghanimageBoundsN55W007 = [[55, -7], [56, -6]];
+      var RathcroghanimagegroupN55W007 = L.imageOverlay(RathcroghanimageUrlN55W007, RathcroghanimageBoundsN55W007, {opacity: 0.25});
+
+var RathcroghanimageUrlN55W008 = './assets/img/Rathcroghan/cloakpN55W008.png',
+      RathcroghanimageBoundsN55W008 = [[55, -8], [56, -7]];
+      var RathcroghanimagegroupN55W008 = L.imageOverlay(RathcroghanimageUrlN55W008, RathcroghanimageBoundsN55W008, {opacity: 0.25});
+
+var RathcroghanimageUrlN55W009 = './assets/img/Rathcroghan/cloakpN55W009.png',
+      RathcroghanimageBoundsN55W009 = [[55, -9], [56, -8]];
+      var RathcroghanimagegroupN55W009 = L.imageOverlay(RathcroghanimageUrlN55W009, RathcroghanimageBoundsN55W009, {opacity: 0.25});
+
+var RathcroghanimageUrlN55W010 = './assets/img/Rathcroghan/cloakpN55W010.png',
+      RathcroghanimageBoundsN55W010 = [[55, -10], [56, -9]];
+      var RathcroghanimagegroupN55W010 = L.imageOverlay(RathcroghanimageUrlN55W010, RathcroghanimageBoundsN55W010, {opacity: 0.25});	  
+	  
+var RathcroghanimageUrlN55W011 = './assets/img/Rathcroghan/cloakpN55W011.png',
+      RathcroghanimageBoundsN55W011 = [[55, -11], [56, -10]];
+      var RathcroghanimagegroupN55W011 = L.imageOverlay(RathcroghanimageUrlN55W011, RathcroghanimageBoundsN55W011, {opacity: 0.25});	  
+
+
+var Rathcroghanvch = L.layerGroup([RathcroghanimagegroupN51W004, RathcroghanimagegroupN51W005, RathcroghanimagegroupN51W006, RathcroghanimagegroupN51W007, RathcroghanimagegroupN51W008, RathcroghanimagegroupN51W009, RathcroghanimagegroupN51W010, RathcroghanimagegroupN51W011, RathcroghanimagegroupN52W004, RathcroghanimagegroupN52W005,  RathcroghanimagegroupN52W006, RathcroghanimagegroupN52W007, RathcroghanimagegroupN52W008, RathcroghanimagegroupN52W009, RathcroghanimagegroupN52W010, RathcroghanimagegroupN52W011, RathcroghanimagegroupN53W004, RathcroghanimagegroupN53W005, RathcroghanimagegroupN53W006, RathcroghanimagegroupN53W007, RathcroghanimagegroupN53W008, RathcroghanimagegroupN53W009, RathcroghanimagegroupN53W010, RathcroghanimagegroupN53W011, RathcroghanimagegroupN54W004, RathcroghanimagegroupN54W005, RathcroghanimagegroupN54W006, RathcroghanimagegroupN54W007, RathcroghanimagegroupN54W008, RathcroghanimagegroupN54W009, RathcroghanimagegroupN54W010, RathcroghanimagegroupN54W011, RathcroghanimagegroupN55W004, RathcroghanimagegroupN55W005, RathcroghanimagegroupN55W006, RathcroghanimagegroupN55W007, RathcroghanimagegroupN55W008, RathcroghanimagegroupN55W009, RathcroghanimagegroupN55W010, RathcroghanimagegroupN55W011]);
+
+
+/* Rathra Visibility Cloak Horizon and Images */
+
+/* 51 */
+var rathraimageUrlN51W004 = './assets/img/rathra/cloakpN51W004.png',
+      rathraimageBoundsN51W004 = [[51, -4], [52, -3]];
+      var rathraimagegroupN51W004 = L.imageOverlay(rathraimageUrlN51W004, rathraimageBoundsN51W004, {opacity: 0.25});
+
+var rathraimageUrlN51W005 = './assets/img/rathra/cloakpN51W005.png',
+      rathraimageBoundsN51W005 = [[51, -5], [52, -4]];
+      var rathraimagegroupN51W005 = L.imageOverlay(rathraimageUrlN51W005, rathraimageBoundsN51W005, {opacity: 0.25});
+
+var rathraimageUrlN51W006 = './assets/img/rathra/cloakpN51W006.png',
+      rathraimageBoundsN51W006 = [[51, -6], [52, -5]];
+      var rathraimagegroupN51W006 = L.imageOverlay(rathraimageUrlN51W006, rathraimageBoundsN51W006, {opacity: 0.25});
+
+var rathraimageUrlN51W007 = './assets/img/rathra/cloakpN51W007.png',
+      rathraimageBoundsN51W007 = [[51, -7], [52, -6]];
+      var rathraimagegroupN51W007 = L.imageOverlay(rathraimageUrlN51W007, rathraimageBoundsN51W007, {opacity: 0.25});
+
+var rathraimageUrlN51W008 = './assets/img/rathra/cloakpN51W008.png',
+      rathraimageBoundsN51W008 = [[51, -8], [52, -7]];
+      var rathraimagegroupN51W008 = L.imageOverlay(rathraimageUrlN51W008, rathraimageBoundsN51W008, {opacity: 0.25});
+
+var rathraimageUrlN51W009 = './assets/img/rathra/cloakpN51W009.png',
+      rathraimageBoundsN51W009 = [[51, -9], [52, -8]];
+      var rathraimagegroupN51W009 = L.imageOverlay(rathraimageUrlN51W009, rathraimageBoundsN51W009, {opacity: 0.25});
+
+var rathraimageUrlN51W010 = './assets/img/rathra/cloakpN51W010.png',
+      rathraimageBoundsN51W010 = [[51, -10], [52, -9]];
+      var rathraimagegroupN51W010 = L.imageOverlay(rathraimageUrlN51W010, rathraimageBoundsN51W010, {opacity: 0.25});	  
+	  
+var rathraimageUrlN51W011 = './assets/img/rathra/cloakpN51W011.png',
+      rathraimageBoundsN51W011 = [[51, -11], [52, -10]];
+      var rathraimagegroupN51W011 = L.imageOverlay(rathraimageUrlN51W011, rathraimageBoundsN51W011, {opacity: 0.25});
+
+
+/* 52 */
+var rathraimageUrlN52W004 = './assets/img/rathra/cloakpN52W004.png',
+      rathraimageBoundsN52W004 = [[52, -4], [53, -3]];
+      var rathraimagegroupN52W004 = L.imageOverlay(rathraimageUrlN52W004, rathraimageBoundsN52W004, {opacity: 0.25});
+
+var rathraimageUrlN52W005 = './assets/img/rathra/cloakpN52W005.png',
+      rathraimageBoundsN52W005 = [[52, -5], [53, -4]];
+      var rathraimagegroupN52W005 = L.imageOverlay(rathraimageUrlN52W005, rathraimageBoundsN52W005, {opacity: 0.25});
+
+var rathraimageUrlN52W006 = './assets/img/rathra/cloakpN52W006.png',
+      rathraimageBoundsN52W006 = [[52, -6], [53, -5]];
+      var rathraimagegroupN52W006 = L.imageOverlay(rathraimageUrlN52W006, rathraimageBoundsN52W006, {opacity: 0.25});
+
+var rathraimageUrlN52W007 = './assets/img/rathra/cloakpN52W007.png',
+      rathraimageBoundsN52W007 = [[52, -7], [53, -6]];
+      var rathraimagegroupN52W007 = L.imageOverlay(rathraimageUrlN52W007, rathraimageBoundsN52W007, {opacity: 0.25});
+
+var rathraimageUrlN52W008 = './assets/img/rathra/cloakpN52W008.png',
+      rathraimageBoundsN52W008 = [[52, -8], [53, -7]];
+      var rathraimagegroupN52W008 = L.imageOverlay(rathraimageUrlN52W008, rathraimageBoundsN52W008, {opacity: 0.25});
+
+var rathraimageUrlN52W009 = './assets/img/rathra/cloakpN52W009.png',
+      rathraimageBoundsN52W009 = [[52, -9], [53, -8]];
+      var rathraimagegroupN52W009 = L.imageOverlay(rathraimageUrlN52W009, rathraimageBoundsN52W009, {opacity: 0.25});
+
+var rathraimageUrlN52W010 = './assets/img/rathra/cloakpN52W010.png',
+      rathraimageBoundsN52W010 = [[52, -10], [53, -9]];
+      var rathraimagegroupN52W010 = L.imageOverlay(rathraimageUrlN52W010, rathraimageBoundsN52W010, {opacity: 0.25});	  
+	  
+var rathraimageUrlN52W011 = './assets/img/rathra/cloakpN52W011.png',
+      rathraimageBoundsN52W011 = [[52, -11], [53, -10]];
+      var rathraimagegroupN52W011 = L.imageOverlay(rathraimageUrlN52W011, rathraimageBoundsN52W011, {opacity: 0.25});	  
+	  
+	  
+	  
+/* 53 */
+var rathraimageUrlN53W004 = './assets/img/rathra/cloakpN53W004.png',
+      rathraimageBoundsN53W004 = [[53, -4], [54, -3]];
+      var rathraimagegroupN53W004 = L.imageOverlay(rathraimageUrlN53W004, rathraimageBoundsN53W004, {opacity: 0.25});
+
+var rathraimageUrlN53W005 = './assets/img/rathra/cloakpN53W005.png',
+      rathraimageBoundsN53W005 = [[53, -5], [54, -4]];
+      var rathraimagegroupN53W005 = L.imageOverlay(rathraimageUrlN53W005, rathraimageBoundsN53W005, {opacity: 0.25});
+
+var rathraimageUrlN53W006 = './assets/img/rathra/cloakpN53W006.png',
+      rathraimageBoundsN53W006 = [[53, -6], [54, -5]];
+      var rathraimagegroupN53W006 = L.imageOverlay(rathraimageUrlN53W006, rathraimageBoundsN53W006, {opacity: 0.25});
+
+var rathraimageUrlN53W007 = './assets/img/rathra/cloakpN53W007.png',
+      rathraimageBoundsN53W007 = [[53, -7], [54, -6]];
+      var rathraimagegroupN53W007 = L.imageOverlay(rathraimageUrlN53W007, rathraimageBoundsN53W007, {opacity: 0.25});
+
+var rathraimageUrlN53W008 = './assets/img/rathra/cloakpN53W008.png',
+      rathraimageBoundsN53W008 = [[53, -8], [54, -7]];
+      var rathraimagegroupN53W008 = L.imageOverlay(rathraimageUrlN53W008, rathraimageBoundsN53W008, {opacity: 0.25});
+
+var rathraimageUrlN53W009 = './assets/img/rathra/cloakpN53W009.png',
+      rathraimageBoundsN53W009 = [[53, -9], [54, -8]];
+      var rathraimagegroupN53W009 = L.imageOverlay(rathraimageUrlN53W009, rathraimageBoundsN53W009, {opacity: 0.25});
+
+var rathraimageUrlN53W010 = './assets/img/rathra/cloakpN53W010.png',
+      rathraimageBoundsN53W010 = [[53, -10], [54, -9]];
+      var rathraimagegroupN53W010 = L.imageOverlay(rathraimageUrlN53W010, rathraimageBoundsN53W010, {opacity: 0.25});	  
+	  
+var rathraimageUrlN53W011 = './assets/img/rathra/cloakpN53W011.png',
+      rathraimageBoundsN53W011 = [[53, -11], [54, -10]];
+      var rathraimagegroupN53W011 = L.imageOverlay(rathraimageUrlN53W011, rathraimageBoundsN53W011, {opacity: 0.25});
+	  
+	  
+
+/* 54 */
+var rathraimageUrlN54W004 = './assets/img/rathra/cloakpN54W004.png',
+      rathraimageBoundsN54W004 = [[54, -4], [55, -3]];
+      var rathraimagegroupN54W004 = L.imageOverlay(rathraimageUrlN54W004, rathraimageBoundsN54W004, {opacity: 0.25});
+
+var rathraimageUrlN54W005 = './assets/img/rathra/cloakpN54W005.png',
+      rathraimageBoundsN54W005 = [[54, -5], [55, -4]];
+      var rathraimagegroupN54W005 = L.imageOverlay(rathraimageUrlN54W005, rathraimageBoundsN54W005, {opacity: 0.25});
+
+var rathraimageUrlN54W006 = './assets/img/rathra/cloakpN54W006.png',
+      rathraimageBoundsN54W006 = [[54, -6], [55, -5]];
+      var rathraimagegroupN54W006 = L.imageOverlay(rathraimageUrlN54W006, rathraimageBoundsN54W006, {opacity: 0.25});
+
+var rathraimageUrlN54W007 = './assets/img/rathra/cloakpN54W007.png',
+      rathraimageBoundsN54W007 = [[54, -7], [55, -6]];
+      var rathraimagegroupN54W007 = L.imageOverlay(rathraimageUrlN54W007, rathraimageBoundsN54W007, {opacity: 0.25});
+
+var rathraimageUrlN54W008 = './assets/img/rathra/cloakpN54W008.png',
+      rathraimageBoundsN54W008 = [[54, -8], [55, -7]];
+      var rathraimagegroupN54W008 = L.imageOverlay(rathraimageUrlN54W008, rathraimageBoundsN54W008, {opacity: 0.25});
+
+var rathraimageUrlN54W009 = './assets/img/rathra/cloakpN54W009.png',
+      rathraimageBoundsN54W009 = [[54, -9], [55, -8]];
+      var rathraimagegroupN54W009 = L.imageOverlay(rathraimageUrlN54W009, rathraimageBoundsN54W009, {opacity: 0.25});
+
+var rathraimageUrlN54W010 = './assets/img/rathra/cloakpN54W010.png',
+      rathraimageBoundsN54W010 = [[54, -10], [55, -9]];
+      var rathraimagegroupN54W010 = L.imageOverlay(rathraimageUrlN54W010, rathraimageBoundsN54W010, {opacity: 0.25});	  
+	  
+var rathraimageUrlN54W011 = './assets/img/rathra/cloakpN54W011.png',
+      rathraimageBoundsN54W011 = [[54, -11], [55, -10]];
+      var rathraimagegroupN54W011 = L.imageOverlay(rathraimageUrlN54W011, rathraimageBoundsN54W011, {opacity: 0.25});
+	  
+
+/* 55 */
+var rathraimageUrlN55W004 = './assets/img/rathra/cloakpN55W004.png',
+      rathraimageBoundsN55W004 = [[55, -4], [56, -3]];
+      var rathraimagegroupN55W004 = L.imageOverlay(rathraimageUrlN55W004, rathraimageBoundsN55W004, {opacity: 0.25});
+
+var rathraimageUrlN55W005 = './assets/img/rathra/cloakpN55W005.png',
+      rathraimageBoundsN55W005 = [[55, -5], [56, -4]];
+      var rathraimagegroupN55W005 = L.imageOverlay(rathraimageUrlN55W005, rathraimageBoundsN55W005, {opacity: 0.25});
+
+var rathraimageUrlN55W006 = './assets/img/rathra/cloakpN55W006.png',
+      rathraimageBoundsN55W006 = [[55, -6], [56, -5]];
+      var rathraimagegroupN55W006 = L.imageOverlay(rathraimageUrlN55W006, rathraimageBoundsN55W006, {opacity: 0.25});
+
+var rathraimageUrlN55W007 = './assets/img/rathra/cloakpN55W007.png',
+      rathraimageBoundsN55W007 = [[55, -7], [56, -6]];
+      var rathraimagegroupN55W007 = L.imageOverlay(rathraimageUrlN55W007, rathraimageBoundsN55W007, {opacity: 0.25});
+
+var rathraimageUrlN55W008 = './assets/img/rathra/cloakpN55W008.png',
+      rathraimageBoundsN55W008 = [[55, -8], [56, -7]];
+      var rathraimagegroupN55W008 = L.imageOverlay(rathraimageUrlN55W008, rathraimageBoundsN55W008, {opacity: 0.25});
+
+var rathraimageUrlN55W009 = './assets/img/rathra/cloakpN55W009.png',
+      rathraimageBoundsN55W009 = [[55, -9], [56, -8]];
+      var rathraimagegroupN55W009 = L.imageOverlay(rathraimageUrlN55W009, rathraimageBoundsN55W009, {opacity: 0.25});
+
+var rathraimageUrlN55W010 = './assets/img/rathra/cloakpN55W010.png',
+      rathraimageBoundsN55W010 = [[55, -10], [56, -9]];
+      var rathraimagegroupN55W010 = L.imageOverlay(rathraimageUrlN55W010, rathraimageBoundsN55W010, {opacity: 0.25});	  
+	  
+var rathraimageUrlN55W011 = './assets/img/rathra/cloakpN55W011.png',
+      rathraimageBoundsN55W011 = [[55, -11], [56, -10]];
+      var rathraimagegroupN55W011 = L.imageOverlay(rathraimageUrlN55W011, rathraimageBoundsN55W011, {opacity: 0.25});	  
+
+
+var rathravch = L.layerGroup([rathraimagegroupN51W004, rathraimagegroupN51W005, rathraimagegroupN51W006, rathraimagegroupN51W007, rathraimagegroupN51W008, rathraimagegroupN51W009, rathraimagegroupN51W010, rathraimagegroupN51W011, rathraimagegroupN52W004, rathraimagegroupN52W005,  rathraimagegroupN52W006, rathraimagegroupN52W007, rathraimagegroupN52W008, rathraimagegroupN52W009, rathraimagegroupN52W010, rathraimagegroupN52W011, rathraimagegroupN53W004, rathraimagegroupN53W005, rathraimagegroupN53W006, rathraimagegroupN53W007, rathraimagegroupN53W008, rathraimagegroupN53W009, rathraimagegroupN53W010, rathraimagegroupN53W011, rathraimagegroupN54W004, rathraimagegroupN54W005, rathraimagegroupN54W006, rathraimagegroupN54W007, rathraimagegroupN54W008, rathraimagegroupN54W009, rathraimagegroupN54W010, rathraimagegroupN54W011, rathraimagegroupN55W004, rathraimagegroupN55W005, rathraimagegroupN55W006, rathraimagegroupN55W007, rathraimagegroupN55W008, rathraimagegroupN55W009, rathraimagegroupN55W010, rathraimagegroupN55W011]);
+
+
+
+/* Grouped Layer with Visibility Cloak Horizon and Images */
+
+/* 51 */
+var CarnfraechimageUrlN51W004 = './assets/img/Carnfraech/cloakpN51W004.png',
+      CarnfraechimageBoundsN51W004 = [[51, -4], [52, -3]];
+      var CarnfraechimagegroupN51W004 = L.imageOverlay(CarnfraechimageUrlN51W004, CarnfraechimageBoundsN51W004, {opacity: 0.25});
+
+var CarnfraechimageUrlN51W005 = './assets/img/Carnfraech/cloakpN51W005.png',
+      CarnfraechimageBoundsN51W005 = [[51, -5], [52, -4]];
+      var CarnfraechimagegroupN51W005 = L.imageOverlay(CarnfraechimageUrlN51W005, CarnfraechimageBoundsN51W005, {opacity: 0.25});
+
+var CarnfraechimageUrlN51W006 = './assets/img/Carnfraech/cloakpN51W006.png',
+      CarnfraechimageBoundsN51W006 = [[51, -6], [52, -5]];
+      var CarnfraechimagegroupN51W006 = L.imageOverlay(CarnfraechimageUrlN51W006, CarnfraechimageBoundsN51W006, {opacity: 0.25});
+
+var CarnfraechimageUrlN51W007 = './assets/img/Carnfraech/cloakpN51W007.png',
+      CarnfraechimageBoundsN51W007 = [[51, -7], [52, -6]];
+      var CarnfraechimagegroupN51W007 = L.imageOverlay(CarnfraechimageUrlN51W007, CarnfraechimageBoundsN51W007, {opacity: 0.25});
+
+var CarnfraechimageUrlN51W008 = './assets/img/Carnfraech/cloakpN51W008.png',
+      CarnfraechimageBoundsN51W008 = [[51, -8], [52, -7]];
+      var CarnfraechimagegroupN51W008 = L.imageOverlay(CarnfraechimageUrlN51W008, CarnfraechimageBoundsN51W008, {opacity: 0.25});
+
+var CarnfraechimageUrlN51W009 = './assets/img/Carnfraech/cloakpN51W009.png',
+      CarnfraechimageBoundsN51W009 = [[51, -9], [52, -8]];
+      var CarnfraechimagegroupN51W009 = L.imageOverlay(CarnfraechimageUrlN51W009, CarnfraechimageBoundsN51W009, {opacity: 0.25});
+
+var CarnfraechimageUrlN51W010 = './assets/img/Carnfraech/cloakpN51W010.png',
+      CarnfraechimageBoundsN51W010 = [[51, -10], [52, -9]];
+      var CarnfraechimagegroupN51W010 = L.imageOverlay(CarnfraechimageUrlN51W010, CarnfraechimageBoundsN51W010, {opacity: 0.25});	  
+	  
+var CarnfraechimageUrlN51W011 = './assets/img/Carnfraech/cloakpN51W011.png',
+      CarnfraechimageBoundsN51W011 = [[51, -11], [52, -10]];
+      var CarnfraechimagegroupN51W011 = L.imageOverlay(CarnfraechimageUrlN51W011, CarnfraechimageBoundsN51W011, {opacity: 0.25});
+
+
+/* 52 */
+var CarnfraechimageUrlN52W004 = './assets/img/Carnfraech/cloakpN52W004.png',
+      CarnfraechimageBoundsN52W004 = [[52, -4], [53, -3]];
+      var CarnfraechimagegroupN52W004 = L.imageOverlay(CarnfraechimageUrlN52W004, CarnfraechimageBoundsN52W004, {opacity: 0.25});
+
+var CarnfraechimageUrlN52W005 = './assets/img/Carnfraech/cloakpN52W005.png',
+      CarnfraechimageBoundsN52W005 = [[52, -5], [53, -4]];
+      var CarnfraechimagegroupN52W005 = L.imageOverlay(CarnfraechimageUrlN52W005, CarnfraechimageBoundsN52W005, {opacity: 0.25});
+
+var CarnfraechimageUrlN52W006 = './assets/img/Carnfraech/cloakpN52W006.png',
+      CarnfraechimageBoundsN52W006 = [[52, -6], [53, -5]];
+      var CarnfraechimagegroupN52W006 = L.imageOverlay(CarnfraechimageUrlN52W006, CarnfraechimageBoundsN52W006, {opacity: 0.25});
+
+var CarnfraechimageUrlN52W007 = './assets/img/Carnfraech/cloakpN52W007.png',
+      CarnfraechimageBoundsN52W007 = [[52, -7], [53, -6]];
+      var CarnfraechimagegroupN52W007 = L.imageOverlay(CarnfraechimageUrlN52W007, CarnfraechimageBoundsN52W007, {opacity: 0.25});
+
+var CarnfraechimageUrlN52W008 = './assets/img/Carnfraech/cloakpN52W008.png',
+      CarnfraechimageBoundsN52W008 = [[52, -8], [53, -7]];
+      var CarnfraechimagegroupN52W008 = L.imageOverlay(CarnfraechimageUrlN52W008, CarnfraechimageBoundsN52W008, {opacity: 0.25});
+
+var CarnfraechimageUrlN52W009 = './assets/img/Carnfraech/cloakpN52W009.png',
+      CarnfraechimageBoundsN52W009 = [[52, -9], [53, -8]];
+      var CarnfraechimagegroupN52W009 = L.imageOverlay(CarnfraechimageUrlN52W009, CarnfraechimageBoundsN52W009, {opacity: 0.25});
+
+var CarnfraechimageUrlN52W010 = './assets/img/Carnfraech/cloakpN52W010.png',
+      CarnfraechimageBoundsN52W010 = [[52, -10], [53, -9]];
+      var CarnfraechimagegroupN52W010 = L.imageOverlay(CarnfraechimageUrlN52W010, CarnfraechimageBoundsN52W010, {opacity: 0.25});	  
+	  
+var CarnfraechimageUrlN52W011 = './assets/img/Carnfraech/cloakpN52W011.png',
+      CarnfraechimageBoundsN52W011 = [[52, -11], [53, -10]];
+      var CarnfraechimagegroupN52W011 = L.imageOverlay(CarnfraechimageUrlN52W011, CarnfraechimageBoundsN52W011, {opacity: 0.25});	  
+	  
+	  
+	  
+/* 53 */
+var CarnfraechimageUrlN53W004 = './assets/img/Carnfraech/cloakpN53W004.png',
+      CarnfraechimageBoundsN53W004 = [[53, -4], [54, -3]];
+      var CarnfraechimagegroupN53W004 = L.imageOverlay(CarnfraechimageUrlN53W004, CarnfraechimageBoundsN53W004, {opacity: 0.25});
+
+var CarnfraechimageUrlN53W005 = './assets/img/Carnfraech/cloakpN53W005.png',
+      CarnfraechimageBoundsN53W005 = [[53, -5], [54, -4]];
+      var CarnfraechimagegroupN53W005 = L.imageOverlay(CarnfraechimageUrlN53W005, CarnfraechimageBoundsN53W005, {opacity: 0.25});
+
+var CarnfraechimageUrlN53W006 = './assets/img/Carnfraech/cloakpN53W006.png',
+      CarnfraechimageBoundsN53W006 = [[53, -6], [54, -5]];
+      var CarnfraechimagegroupN53W006 = L.imageOverlay(CarnfraechimageUrlN53W006, CarnfraechimageBoundsN53W006, {opacity: 0.25});
+
+var CarnfraechimageUrlN53W007 = './assets/img/Carnfraech/cloakpN53W007.png',
+      CarnfraechimageBoundsN53W007 = [[53, -7], [54, -6]];
+      var CarnfraechimagegroupN53W007 = L.imageOverlay(CarnfraechimageUrlN53W007, CarnfraechimageBoundsN53W007, {opacity: 0.25});
+
+var CarnfraechimageUrlN53W008 = './assets/img/Carnfraech/cloakpN53W008.png',
+      CarnfraechimageBoundsN53W008 = [[53, -8], [54, -7]];
+      var CarnfraechimagegroupN53W008 = L.imageOverlay(CarnfraechimageUrlN53W008, CarnfraechimageBoundsN53W008, {opacity: 0.25});
+
+var CarnfraechimageUrlN53W009 = './assets/img/Carnfraech/cloakpN53W009.png',
+      CarnfraechimageBoundsN53W009 = [[53, -9], [54, -8]];
+      var CarnfraechimagegroupN53W009 = L.imageOverlay(CarnfraechimageUrlN53W009, CarnfraechimageBoundsN53W009, {opacity: 0.25});
+
+var CarnfraechimageUrlN53W010 = './assets/img/Carnfraech/cloakpN53W010.png',
+      CarnfraechimageBoundsN53W010 = [[53, -10], [54, -9]];
+      var CarnfraechimagegroupN53W010 = L.imageOverlay(CarnfraechimageUrlN53W010, CarnfraechimageBoundsN53W010, {opacity: 0.25});	  
+	  
+var CarnfraechimageUrlN53W011 = './assets/img/Carnfraech/cloakpN53W011.png',
+      CarnfraechimageBoundsN53W011 = [[53, -11], [54, -10]];
+      var CarnfraechimagegroupN53W011 = L.imageOverlay(CarnfraechimageUrlN53W011, CarnfraechimageBoundsN53W011, {opacity: 0.25});
+	  
+	  
+
+/* 54 */
+var CarnfraechimageUrlN54W004 = './assets/img/Carnfraech/cloakpN54W004.png',
+      CarnfraechimageBoundsN54W004 = [[54, -4], [55, -3]];
+      var CarnfraechimagegroupN54W004 = L.imageOverlay(CarnfraechimageUrlN54W004, CarnfraechimageBoundsN54W004, {opacity: 0.25});
+
+var CarnfraechimageUrlN54W005 = './assets/img/Carnfraech/cloakpN54W005.png',
+      CarnfraechimageBoundsN54W005 = [[54, -5], [55, -4]];
+      var CarnfraechimagegroupN54W005 = L.imageOverlay(CarnfraechimageUrlN54W005, CarnfraechimageBoundsN54W005, {opacity: 0.25});
+
+var CarnfraechimageUrlN54W006 = './assets/img/Carnfraech/cloakpN54W006.png',
+      CarnfraechimageBoundsN54W006 = [[54, -6], [55, -5]];
+      var CarnfraechimagegroupN54W006 = L.imageOverlay(CarnfraechimageUrlN54W006, CarnfraechimageBoundsN54W006, {opacity: 0.25});
+
+var CarnfraechimageUrlN54W007 = './assets/img/Carnfraech/cloakpN54W007.png',
+      CarnfraechimageBoundsN54W007 = [[54, -7], [55, -6]];
+      var CarnfraechimagegroupN54W007 = L.imageOverlay(CarnfraechimageUrlN54W007, CarnfraechimageBoundsN54W007, {opacity: 0.25});
+
+var CarnfraechimageUrlN54W008 = './assets/img/Carnfraech/cloakpN54W008.png',
+      CarnfraechimageBoundsN54W008 = [[54, -8], [55, -7]];
+      var CarnfraechimagegroupN54W008 = L.imageOverlay(CarnfraechimageUrlN54W008, CarnfraechimageBoundsN54W008, {opacity: 0.25});
+
+var CarnfraechimageUrlN54W009 = './assets/img/Carnfraech/cloakpN54W009.png',
+      CarnfraechimageBoundsN54W009 = [[54, -9], [55, -8]];
+      var CarnfraechimagegroupN54W009 = L.imageOverlay(CarnfraechimageUrlN54W009, CarnfraechimageBoundsN54W009, {opacity: 0.25});
+
+var CarnfraechimageUrlN54W010 = './assets/img/Carnfraech/cloakpN54W010.png',
+      CarnfraechimageBoundsN54W010 = [[54, -10], [55, -9]];
+      var CarnfraechimagegroupN54W010 = L.imageOverlay(CarnfraechimageUrlN54W010, CarnfraechimageBoundsN54W010, {opacity: 0.25});	  
+	  
+var CarnfraechimageUrlN54W011 = './assets/img/Carnfraech/cloakpN54W011.png',
+      CarnfraechimageBoundsN54W011 = [[54, -11], [55, -10]];
+      var CarnfraechimagegroupN54W011 = L.imageOverlay(CarnfraechimageUrlN54W011, CarnfraechimageBoundsN54W011, {opacity: 0.25});
+	  
+
+/* 55 */
+var CarnfraechimageUrlN55W004 = './assets/img/Carnfraech/cloakpN55W004.png',
+      CarnfraechimageBoundsN55W004 = [[55, -4], [56, -3]];
+      var CarnfraechimagegroupN55W004 = L.imageOverlay(CarnfraechimageUrlN55W004, CarnfraechimageBoundsN55W004, {opacity: 0.25});
+
+var CarnfraechimageUrlN55W005 = './assets/img/Carnfraech/cloakpN55W005.png',
+      CarnfraechimageBoundsN55W005 = [[55, -5], [56, -4]];
+      var CarnfraechimagegroupN55W005 = L.imageOverlay(CarnfraechimageUrlN55W005, CarnfraechimageBoundsN55W005, {opacity: 0.25});
+
+var CarnfraechimageUrlN55W006 = './assets/img/Carnfraech/cloakpN55W006.png',
+      CarnfraechimageBoundsN55W006 = [[55, -6], [56, -5]];
+      var CarnfraechimagegroupN55W006 = L.imageOverlay(CarnfraechimageUrlN55W006, CarnfraechimageBoundsN55W006, {opacity: 0.25});
+
+var CarnfraechimageUrlN55W007 = './assets/img/Carnfraech/cloakpN55W007.png',
+      CarnfraechimageBoundsN55W007 = [[55, -7], [56, -6]];
+      var CarnfraechimagegroupN55W007 = L.imageOverlay(CarnfraechimageUrlN55W007, CarnfraechimageBoundsN55W007, {opacity: 0.25});
+
+var CarnfraechimageUrlN55W008 = './assets/img/Carnfraech/cloakpN55W008.png',
+      CarnfraechimageBoundsN55W008 = [[55, -8], [56, -7]];
+      var CarnfraechimagegroupN55W008 = L.imageOverlay(CarnfraechimageUrlN55W008, CarnfraechimageBoundsN55W008, {opacity: 0.25});
+
+var CarnfraechimageUrlN55W009 = './assets/img/Carnfraech/cloakpN55W009.png',
+      CarnfraechimageBoundsN55W009 = [[55, -9], [56, -8]];
+      var CarnfraechimagegroupN55W009 = L.imageOverlay(CarnfraechimageUrlN55W009, CarnfraechimageBoundsN55W009, {opacity: 0.25});
+
+var CarnfraechimageUrlN55W010 = './assets/img/Carnfraech/cloakpN55W010.png',
+      CarnfraechimageBoundsN55W010 = [[55, -10], [56, -9]];
+      var CarnfraechimagegroupN55W010 = L.imageOverlay(CarnfraechimageUrlN55W010, CarnfraechimageBoundsN55W010, {opacity: 0.25});	  
+	  
+var CarnfraechimageUrlN55W011 = './assets/img/Carnfraech/cloakpN55W011.png',
+      CarnfraechimageBoundsN55W011 = [[55, -11], [56, -10]];
+      var CarnfraechimagegroupN55W011 = L.imageOverlay(CarnfraechimageUrlN55W011, CarnfraechimageBoundsN55W011, {opacity: 0.25});	  
+
+
+var Carnfraechvch = L.layerGroup([CarnfraechimagegroupN51W004, CarnfraechimagegroupN51W005, CarnfraechimagegroupN51W006, CarnfraechimagegroupN51W007, CarnfraechimagegroupN51W008, CarnfraechimagegroupN51W009, CarnfraechimagegroupN51W010, CarnfraechimagegroupN51W011, CarnfraechimagegroupN52W004, CarnfraechimagegroupN52W005,  CarnfraechimagegroupN52W006, CarnfraechimagegroupN52W007, CarnfraechimagegroupN52W008, CarnfraechimagegroupN52W009, CarnfraechimagegroupN52W010, CarnfraechimagegroupN52W011, CarnfraechimagegroupN53W004, CarnfraechimagegroupN53W005, CarnfraechimagegroupN53W006, CarnfraechimagegroupN53W007, CarnfraechimagegroupN53W008, CarnfraechimagegroupN53W009, CarnfraechimagegroupN53W010, CarnfraechimagegroupN53W011, CarnfraechimagegroupN54W004, CarnfraechimagegroupN54W005, CarnfraechimagegroupN54W006, CarnfraechimagegroupN54W007, CarnfraechimagegroupN54W008, CarnfraechimagegroupN54W009, CarnfraechimagegroupN54W010, CarnfraechimagegroupN54W011, CarnfraechimagegroupN55W004, CarnfraechimagegroupN55W005, CarnfraechimagegroupN55W006, CarnfraechimagegroupN55W007, CarnfraechimagegroupN55W008, CarnfraechimagegroupN55W009, CarnfraechimagegroupN55W010, CarnfraechimagegroupN55W011]);
+
+
+/* Grouped Layer with Visibility Cloak Horizon and Images */
+
+/* 51 */
+var CastleteheenimageUrlN51W004 = './assets/img/Castleteheen/cloakpN51W004.png',
+      CastleteheenimageBoundsN51W004 = [[51, -4], [52, -3]];
+      var CastleteheenimagegroupN51W004 = L.imageOverlay(CastleteheenimageUrlN51W004, CastleteheenimageBoundsN51W004, {opacity: 0.25});
+
+var CastleteheenimageUrlN51W005 = './assets/img/Castleteheen/cloakpN51W005.png',
+      CastleteheenimageBoundsN51W005 = [[51, -5], [52, -4]];
+      var CastleteheenimagegroupN51W005 = L.imageOverlay(CastleteheenimageUrlN51W005, CastleteheenimageBoundsN51W005, {opacity: 0.25});
+
+var CastleteheenimageUrlN51W006 = './assets/img/Castleteheen/cloakpN51W006.png',
+      CastleteheenimageBoundsN51W006 = [[51, -6], [52, -5]];
+      var CastleteheenimagegroupN51W006 = L.imageOverlay(CastleteheenimageUrlN51W006, CastleteheenimageBoundsN51W006, {opacity: 0.25});
+
+var CastleteheenimageUrlN51W007 = './assets/img/Castleteheen/cloakpN51W007.png',
+      CastleteheenimageBoundsN51W007 = [[51, -7], [52, -6]];
+      var CastleteheenimagegroupN51W007 = L.imageOverlay(CastleteheenimageUrlN51W007, CastleteheenimageBoundsN51W007, {opacity: 0.25});
+
+var CastleteheenimageUrlN51W008 = './assets/img/Castleteheen/cloakpN51W008.png',
+      CastleteheenimageBoundsN51W008 = [[51, -8], [52, -7]];
+      var CastleteheenimagegroupN51W008 = L.imageOverlay(CastleteheenimageUrlN51W008, CastleteheenimageBoundsN51W008, {opacity: 0.25});
+
+var CastleteheenimageUrlN51W009 = './assets/img/Castleteheen/cloakpN51W009.png',
+      CastleteheenimageBoundsN51W009 = [[51, -9], [52, -8]];
+      var CastleteheenimagegroupN51W009 = L.imageOverlay(CastleteheenimageUrlN51W009, CastleteheenimageBoundsN51W009, {opacity: 0.25});
+
+var CastleteheenimageUrlN51W010 = './assets/img/Castleteheen/cloakpN51W010.png',
+      CastleteheenimageBoundsN51W010 = [[51, -10], [52, -9]];
+      var CastleteheenimagegroupN51W010 = L.imageOverlay(CastleteheenimageUrlN51W010, CastleteheenimageBoundsN51W010, {opacity: 0.25});	  
+	  
+var CastleteheenimageUrlN51W011 = './assets/img/Castleteheen/cloakpN51W011.png',
+      CastleteheenimageBoundsN51W011 = [[51, -11], [52, -10]];
+      var CastleteheenimagegroupN51W011 = L.imageOverlay(CastleteheenimageUrlN51W011, CastleteheenimageBoundsN51W011, {opacity: 0.25});
+
+
+/* 52 */
+var CastleteheenimageUrlN52W004 = './assets/img/Castleteheen/cloakpN52W004.png',
+      CastleteheenimageBoundsN52W004 = [[52, -4], [53, -3]];
+      var CastleteheenimagegroupN52W004 = L.imageOverlay(CastleteheenimageUrlN52W004, CastleteheenimageBoundsN52W004, {opacity: 0.25});
+
+var CastleteheenimageUrlN52W005 = './assets/img/Castleteheen/cloakpN52W005.png',
+      CastleteheenimageBoundsN52W005 = [[52, -5], [53, -4]];
+      var CastleteheenimagegroupN52W005 = L.imageOverlay(CastleteheenimageUrlN52W005, CastleteheenimageBoundsN52W005, {opacity: 0.25});
+
+var CastleteheenimageUrlN52W006 = './assets/img/Castleteheen/cloakpN52W006.png',
+      CastleteheenimageBoundsN52W006 = [[52, -6], [53, -5]];
+      var CastleteheenimagegroupN52W006 = L.imageOverlay(CastleteheenimageUrlN52W006, CastleteheenimageBoundsN52W006, {opacity: 0.25});
+
+var CastleteheenimageUrlN52W007 = './assets/img/Castleteheen/cloakpN52W007.png',
+      CastleteheenimageBoundsN52W007 = [[52, -7], [53, -6]];
+      var CastleteheenimagegroupN52W007 = L.imageOverlay(CastleteheenimageUrlN52W007, CastleteheenimageBoundsN52W007, {opacity: 0.25});
+
+var CastleteheenimageUrlN52W008 = './assets/img/Castleteheen/cloakpN52W008.png',
+      CastleteheenimageBoundsN52W008 = [[52, -8], [53, -7]];
+      var CastleteheenimagegroupN52W008 = L.imageOverlay(CastleteheenimageUrlN52W008, CastleteheenimageBoundsN52W008, {opacity: 0.25});
+
+var CastleteheenimageUrlN52W009 = './assets/img/Castleteheen/cloakpN52W009.png',
+      CastleteheenimageBoundsN52W009 = [[52, -9], [53, -8]];
+      var CastleteheenimagegroupN52W009 = L.imageOverlay(CastleteheenimageUrlN52W009, CastleteheenimageBoundsN52W009, {opacity: 0.25});
+
+var CastleteheenimageUrlN52W010 = './assets/img/Castleteheen/cloakpN52W010.png',
+      CastleteheenimageBoundsN52W010 = [[52, -10], [53, -9]];
+      var CastleteheenimagegroupN52W010 = L.imageOverlay(CastleteheenimageUrlN52W010, CastleteheenimageBoundsN52W010, {opacity: 0.25});	  
+	  
+var CastleteheenimageUrlN52W011 = './assets/img/Castleteheen/cloakpN52W011.png',
+      CastleteheenimageBoundsN52W011 = [[52, -11], [53, -10]];
+      var CastleteheenimagegroupN52W011 = L.imageOverlay(CastleteheenimageUrlN52W011, CastleteheenimageBoundsN52W011, {opacity: 0.25});	  
+	  
+	  
+	  
+/* 53 */
+var CastleteheenimageUrlN53W004 = './assets/img/Castleteheen/cloakpN53W004.png',
+      CastleteheenimageBoundsN53W004 = [[53, -4], [54, -3]];
+      var CastleteheenimagegroupN53W004 = L.imageOverlay(CastleteheenimageUrlN53W004, CastleteheenimageBoundsN53W004, {opacity: 0.25});
+
+var CastleteheenimageUrlN53W005 = './assets/img/Castleteheen/cloakpN53W005.png',
+      CastleteheenimageBoundsN53W005 = [[53, -5], [54, -4]];
+      var CastleteheenimagegroupN53W005 = L.imageOverlay(CastleteheenimageUrlN53W005, CastleteheenimageBoundsN53W005, {opacity: 0.25});
+
+var CastleteheenimageUrlN53W006 = './assets/img/Castleteheen/cloakpN53W006.png',
+      CastleteheenimageBoundsN53W006 = [[53, -6], [54, -5]];
+      var CastleteheenimagegroupN53W006 = L.imageOverlay(CastleteheenimageUrlN53W006, CastleteheenimageBoundsN53W006, {opacity: 0.25});
+
+var CastleteheenimageUrlN53W007 = './assets/img/Castleteheen/cloakpN53W007.png',
+      CastleteheenimageBoundsN53W007 = [[53, -7], [54, -6]];
+      var CastleteheenimagegroupN53W007 = L.imageOverlay(CastleteheenimageUrlN53W007, CastleteheenimageBoundsN53W007, {opacity: 0.25});
+
+var CastleteheenimageUrlN53W008 = './assets/img/Castleteheen/cloakpN53W008.png',
+      CastleteheenimageBoundsN53W008 = [[53, -8], [54, -7]];
+      var CastleteheenimagegroupN53W008 = L.imageOverlay(CastleteheenimageUrlN53W008, CastleteheenimageBoundsN53W008, {opacity: 0.25});
+
+var CastleteheenimageUrlN53W009 = './assets/img/Castleteheen/cloakpN53W009.png',
+      CastleteheenimageBoundsN53W009 = [[53, -9], [54, -8]];
+      var CastleteheenimagegroupN53W009 = L.imageOverlay(CastleteheenimageUrlN53W009, CastleteheenimageBoundsN53W009, {opacity: 0.25});
+
+var CastleteheenimageUrlN53W010 = './assets/img/Castleteheen/cloakpN53W010.png',
+      CastleteheenimageBoundsN53W010 = [[53, -10], [54, -9]];
+      var CastleteheenimagegroupN53W010 = L.imageOverlay(CastleteheenimageUrlN53W010, CastleteheenimageBoundsN53W010, {opacity: 0.25});	  
+	  
+var CastleteheenimageUrlN53W011 = './assets/img/Castleteheen/cloakpN53W011.png',
+      CastleteheenimageBoundsN53W011 = [[53, -11], [54, -10]];
+      var CastleteheenimagegroupN53W011 = L.imageOverlay(CastleteheenimageUrlN53W011, CastleteheenimageBoundsN53W011, {opacity: 0.25});
+	  
+	  
+
+/* 54 */
+var CastleteheenimageUrlN54W004 = './assets/img/Castleteheen/cloakpN54W004.png',
+      CastleteheenimageBoundsN54W004 = [[54, -4], [55, -3]];
+      var CastleteheenimagegroupN54W004 = L.imageOverlay(CastleteheenimageUrlN54W004, CastleteheenimageBoundsN54W004, {opacity: 0.25});
+
+var CastleteheenimageUrlN54W005 = './assets/img/Castleteheen/cloakpN54W005.png',
+      CastleteheenimageBoundsN54W005 = [[54, -5], [55, -4]];
+      var CastleteheenimagegroupN54W005 = L.imageOverlay(CastleteheenimageUrlN54W005, CastleteheenimageBoundsN54W005, {opacity: 0.25});
+
+var CastleteheenimageUrlN54W006 = './assets/img/Castleteheen/cloakpN54W006.png',
+      CastleteheenimageBoundsN54W006 = [[54, -6], [55, -5]];
+      var CastleteheenimagegroupN54W006 = L.imageOverlay(CastleteheenimageUrlN54W006, CastleteheenimageBoundsN54W006, {opacity: 0.25});
+
+var CastleteheenimageUrlN54W007 = './assets/img/Castleteheen/cloakpN54W007.png',
+      CastleteheenimageBoundsN54W007 = [[54, -7], [55, -6]];
+      var CastleteheenimagegroupN54W007 = L.imageOverlay(CastleteheenimageUrlN54W007, CastleteheenimageBoundsN54W007, {opacity: 0.25});
+
+var CastleteheenimageUrlN54W008 = './assets/img/Castleteheen/cloakpN54W008.png',
+      CastleteheenimageBoundsN54W008 = [[54, -8], [55, -7]];
+      var CastleteheenimagegroupN54W008 = L.imageOverlay(CastleteheenimageUrlN54W008, CastleteheenimageBoundsN54W008, {opacity: 0.25});
+
+var CastleteheenimageUrlN54W009 = './assets/img/Castleteheen/cloakpN54W009.png',
+      CastleteheenimageBoundsN54W009 = [[54, -9], [55, -8]];
+      var CastleteheenimagegroupN54W009 = L.imageOverlay(CastleteheenimageUrlN54W009, CastleteheenimageBoundsN54W009, {opacity: 0.25});
+
+var CastleteheenimageUrlN54W010 = './assets/img/Castleteheen/cloakpN54W010.png',
+      CastleteheenimageBoundsN54W010 = [[54, -10], [55, -9]];
+      var CastleteheenimagegroupN54W010 = L.imageOverlay(CastleteheenimageUrlN54W010, CastleteheenimageBoundsN54W010, {opacity: 0.25});	  
+	  
+var CastleteheenimageUrlN54W011 = './assets/img/Castleteheen/cloakpN54W011.png',
+      CastleteheenimageBoundsN54W011 = [[54, -11], [55, -10]];
+      var CastleteheenimagegroupN54W011 = L.imageOverlay(CastleteheenimageUrlN54W011, CastleteheenimageBoundsN54W011, {opacity: 0.25});
+	  
+
+/* 55 */
+var CastleteheenimageUrlN55W004 = './assets/img/Castleteheen/cloakpN55W004.png',
+      CastleteheenimageBoundsN55W004 = [[55, -4], [56, -3]];
+      var CastleteheenimagegroupN55W004 = L.imageOverlay(CastleteheenimageUrlN55W004, CastleteheenimageBoundsN55W004, {opacity: 0.25});
+
+var CastleteheenimageUrlN55W005 = './assets/img/Castleteheen/cloakpN55W005.png',
+      CastleteheenimageBoundsN55W005 = [[55, -5], [56, -4]];
+      var CastleteheenimagegroupN55W005 = L.imageOverlay(CastleteheenimageUrlN55W005, CastleteheenimageBoundsN55W005, {opacity: 0.25});
+
+var CastleteheenimageUrlN55W006 = './assets/img/Castleteheen/cloakpN55W006.png',
+      CastleteheenimageBoundsN55W006 = [[55, -6], [56, -5]];
+      var CastleteheenimagegroupN55W006 = L.imageOverlay(CastleteheenimageUrlN55W006, CastleteheenimageBoundsN55W006, {opacity: 0.25});
+
+var CastleteheenimageUrlN55W007 = './assets/img/Castleteheen/cloakpN55W007.png',
+      CastleteheenimageBoundsN55W007 = [[55, -7], [56, -6]];
+      var CastleteheenimagegroupN55W007 = L.imageOverlay(CastleteheenimageUrlN55W007, CastleteheenimageBoundsN55W007, {opacity: 0.25});
+
+var CastleteheenimageUrlN55W008 = './assets/img/Castleteheen/cloakpN55W008.png',
+      CastleteheenimageBoundsN55W008 = [[55, -8], [56, -7]];
+      var CastleteheenimagegroupN55W008 = L.imageOverlay(CastleteheenimageUrlN55W008, CastleteheenimageBoundsN55W008, {opacity: 0.25});
+
+var CastleteheenimageUrlN55W009 = './assets/img/Castleteheen/cloakpN55W009.png',
+      CastleteheenimageBoundsN55W009 = [[55, -9], [56, -8]];
+      var CastleteheenimagegroupN55W009 = L.imageOverlay(CastleteheenimageUrlN55W009, CastleteheenimageBoundsN55W009, {opacity: 0.25});
+
+var CastleteheenimageUrlN55W010 = './assets/img/Castleteheen/cloakpN55W010.png',
+      CastleteheenimageBoundsN55W010 = [[55, -10], [56, -9]];
+      var CastleteheenimagegroupN55W010 = L.imageOverlay(CastleteheenimageUrlN55W010, CastleteheenimageBoundsN55W010, {opacity: 0.25});	  
+	  
+var CastleteheenimageUrlN55W011 = './assets/img/Castleteheen/cloakpN55W011.png',
+      CastleteheenimageBoundsN55W011 = [[55, -11], [56, -10]];
+      var CastleteheenimagegroupN55W011 = L.imageOverlay(CastleteheenimageUrlN55W011, CastleteheenimageBoundsN55W011, {opacity: 0.25});	  
+
+
+var Castleteheenvch = L.layerGroup([CastleteheenimagegroupN51W004, CastleteheenimagegroupN51W005, CastleteheenimagegroupN51W006, CastleteheenimagegroupN51W007, CastleteheenimagegroupN51W008, CastleteheenimagegroupN51W009, CastleteheenimagegroupN51W010, CastleteheenimagegroupN51W011, CastleteheenimagegroupN52W004, CastleteheenimagegroupN52W005,  CastleteheenimagegroupN52W006, CastleteheenimagegroupN52W007, CastleteheenimagegroupN52W008, CastleteheenimagegroupN52W009, CastleteheenimagegroupN52W010, CastleteheenimagegroupN52W011, CastleteheenimagegroupN53W004, CastleteheenimagegroupN53W005, CastleteheenimagegroupN53W006, CastleteheenimagegroupN53W007, CastleteheenimagegroupN53W008, CastleteheenimagegroupN53W009, CastleteheenimagegroupN53W010, CastleteheenimagegroupN53W011, CastleteheenimagegroupN54W004, CastleteheenimagegroupN54W005, CastleteheenimagegroupN54W006, CastleteheenimagegroupN54W007, CastleteheenimagegroupN54W008, CastleteheenimagegroupN54W009, CastleteheenimagegroupN54W010, CastleteheenimagegroupN54W011, CastleteheenimagegroupN55W004, CastleteheenimagegroupN55W005, CastleteheenimagegroupN55W006, CastleteheenimagegroupN55W007, CastleteheenimagegroupN55W008, CastleteheenimagegroupN55W009, CastleteheenimagegroupN55W010, CastleteheenimagegroupN55W011]);
+        
+
+/* Grouped Layer with Visibility Cloak Horizon and Images */
+
+/* 51 */
+var LisheenimageUrlN51W004 = './assets/img/Lisheen/cloakpN51W004.png',
+      LisheenimageBoundsN51W004 = [[51, -4], [52, -3]];
+      var LisheenimagegroupN51W004 = L.imageOverlay(LisheenimageUrlN51W004, LisheenimageBoundsN51W004, {opacity: 0.25});
+
+var LisheenimageUrlN51W005 = './assets/img/Lisheen/cloakpN51W005.png',
+      LisheenimageBoundsN51W005 = [[51, -5], [52, -4]];
+      var LisheenimagegroupN51W005 = L.imageOverlay(LisheenimageUrlN51W005, LisheenimageBoundsN51W005, {opacity: 0.25});
+
+var LisheenimageUrlN51W006 = './assets/img/Lisheen/cloakpN51W006.png',
+      LisheenimageBoundsN51W006 = [[51, -6], [52, -5]];
+      var LisheenimagegroupN51W006 = L.imageOverlay(LisheenimageUrlN51W006, LisheenimageBoundsN51W006, {opacity: 0.25});
+
+var LisheenimageUrlN51W007 = './assets/img/Lisheen/cloakpN51W007.png',
+      LisheenimageBoundsN51W007 = [[51, -7], [52, -6]];
+      var LisheenimagegroupN51W007 = L.imageOverlay(LisheenimageUrlN51W007, LisheenimageBoundsN51W007, {opacity: 0.25});
+
+var LisheenimageUrlN51W008 = './assets/img/Lisheen/cloakpN51W008.png',
+      LisheenimageBoundsN51W008 = [[51, -8], [52, -7]];
+      var LisheenimagegroupN51W008 = L.imageOverlay(LisheenimageUrlN51W008, LisheenimageBoundsN51W008, {opacity: 0.25});
+
+var LisheenimageUrlN51W009 = './assets/img/Lisheen/cloakpN51W009.png',
+      LisheenimageBoundsN51W009 = [[51, -9], [52, -8]];
+      var LisheenimagegroupN51W009 = L.imageOverlay(LisheenimageUrlN51W009, LisheenimageBoundsN51W009, {opacity: 0.25});
+
+var LisheenimageUrlN51W010 = './assets/img/Lisheen/cloakpN51W010.png',
+      LisheenimageBoundsN51W010 = [[51, -10], [52, -9]];
+      var LisheenimagegroupN51W010 = L.imageOverlay(LisheenimageUrlN51W010, LisheenimageBoundsN51W010, {opacity: 0.25});	  
+	  
+var LisheenimageUrlN51W011 = './assets/img/Lisheen/cloakpN51W011.png',
+      LisheenimageBoundsN51W011 = [[51, -11], [52, -10]];
+      var LisheenimagegroupN51W011 = L.imageOverlay(LisheenimageUrlN51W011, LisheenimageBoundsN51W011, {opacity: 0.25});
+
+
+/* 52 */
+var LisheenimageUrlN52W004 = './assets/img/Lisheen/cloakpN52W004.png',
+      LisheenimageBoundsN52W004 = [[52, -4], [53, -3]];
+      var LisheenimagegroupN52W004 = L.imageOverlay(LisheenimageUrlN52W004, LisheenimageBoundsN52W004, {opacity: 0.25});
+
+var LisheenimageUrlN52W005 = './assets/img/Lisheen/cloakpN52W005.png',
+      LisheenimageBoundsN52W005 = [[52, -5], [53, -4]];
+      var LisheenimagegroupN52W005 = L.imageOverlay(LisheenimageUrlN52W005, LisheenimageBoundsN52W005, {opacity: 0.25});
+
+var LisheenimageUrlN52W006 = './assets/img/Lisheen/cloakpN52W006.png',
+      LisheenimageBoundsN52W006 = [[52, -6], [53, -5]];
+      var LisheenimagegroupN52W006 = L.imageOverlay(LisheenimageUrlN52W006, LisheenimageBoundsN52W006, {opacity: 0.25});
+
+var LisheenimageUrlN52W007 = './assets/img/Lisheen/cloakpN52W007.png',
+      LisheenimageBoundsN52W007 = [[52, -7], [53, -6]];
+      var LisheenimagegroupN52W007 = L.imageOverlay(LisheenimageUrlN52W007, LisheenimageBoundsN52W007, {opacity: 0.25});
+
+var LisheenimageUrlN52W008 = './assets/img/Lisheen/cloakpN52W008.png',
+      LisheenimageBoundsN52W008 = [[52, -8], [53, -7]];
+      var LisheenimagegroupN52W008 = L.imageOverlay(LisheenimageUrlN52W008, LisheenimageBoundsN52W008, {opacity: 0.25});
+
+var LisheenimageUrlN52W009 = './assets/img/Lisheen/cloakpN52W009.png',
+      LisheenimageBoundsN52W009 = [[52, -9], [53, -8]];
+      var LisheenimagegroupN52W009 = L.imageOverlay(LisheenimageUrlN52W009, LisheenimageBoundsN52W009, {opacity: 0.25});
+
+var LisheenimageUrlN52W010 = './assets/img/Lisheen/cloakpN52W010.png',
+      LisheenimageBoundsN52W010 = [[52, -10], [53, -9]];
+      var LisheenimagegroupN52W010 = L.imageOverlay(LisheenimageUrlN52W010, LisheenimageBoundsN52W010, {opacity: 0.25});	  
+	  
+var LisheenimageUrlN52W011 = './assets/img/Lisheen/cloakpN52W011.png',
+      LisheenimageBoundsN52W011 = [[52, -11], [53, -10]];
+      var LisheenimagegroupN52W011 = L.imageOverlay(LisheenimageUrlN52W011, LisheenimageBoundsN52W011, {opacity: 0.25});	  
+	  
+	  
+	  
+/* 53 */
+var LisheenimageUrlN53W004 = './assets/img/Lisheen/cloakpN53W004.png',
+      LisheenimageBoundsN53W004 = [[53, -4], [54, -3]];
+      var LisheenimagegroupN53W004 = L.imageOverlay(LisheenimageUrlN53W004, LisheenimageBoundsN53W004, {opacity: 0.25});
+
+var LisheenimageUrlN53W005 = './assets/img/Lisheen/cloakpN53W005.png',
+      LisheenimageBoundsN53W005 = [[53, -5], [54, -4]];
+      var LisheenimagegroupN53W005 = L.imageOverlay(LisheenimageUrlN53W005, LisheenimageBoundsN53W005, {opacity: 0.25});
+
+var LisheenimageUrlN53W006 = './assets/img/Lisheen/cloakpN53W006.png',
+      LisheenimageBoundsN53W006 = [[53, -6], [54, -5]];
+      var LisheenimagegroupN53W006 = L.imageOverlay(LisheenimageUrlN53W006, LisheenimageBoundsN53W006, {opacity: 0.25});
+
+var LisheenimageUrlN53W007 = './assets/img/Lisheen/cloakpN53W007.png',
+      LisheenimageBoundsN53W007 = [[53, -7], [54, -6]];
+      var LisheenimagegroupN53W007 = L.imageOverlay(LisheenimageUrlN53W007, LisheenimageBoundsN53W007, {opacity: 0.25});
+
+var LisheenimageUrlN53W008 = './assets/img/Lisheen/cloakpN53W008.png',
+      LisheenimageBoundsN53W008 = [[53, -8], [54, -7]];
+      var LisheenimagegroupN53W008 = L.imageOverlay(LisheenimageUrlN53W008, LisheenimageBoundsN53W008, {opacity: 0.25});
+
+var LisheenimageUrlN53W009 = './assets/img/Lisheen/cloakpN53W009.png',
+      LisheenimageBoundsN53W009 = [[53, -9], [54, -8]];
+      var LisheenimagegroupN53W009 = L.imageOverlay(LisheenimageUrlN53W009, LisheenimageBoundsN53W009, {opacity: 0.25});
+
+var LisheenimageUrlN53W010 = './assets/img/Lisheen/cloakpN53W010.png',
+      LisheenimageBoundsN53W010 = [[53, -10], [54, -9]];
+      var LisheenimagegroupN53W010 = L.imageOverlay(LisheenimageUrlN53W010, LisheenimageBoundsN53W010, {opacity: 0.25});	  
+	  
+var LisheenimageUrlN53W011 = './assets/img/Lisheen/cloakpN53W011.png',
+      LisheenimageBoundsN53W011 = [[53, -11], [54, -10]];
+      var LisheenimagegroupN53W011 = L.imageOverlay(LisheenimageUrlN53W011, LisheenimageBoundsN53W011, {opacity: 0.25});
+	  
+	  
+
+/* 54 */
+var LisheenimageUrlN54W004 = './assets/img/Lisheen/cloakpN54W004.png',
+      LisheenimageBoundsN54W004 = [[54, -4], [55, -3]];
+      var LisheenimagegroupN54W004 = L.imageOverlay(LisheenimageUrlN54W004, LisheenimageBoundsN54W004, {opacity: 0.25});
+
+var LisheenimageUrlN54W005 = './assets/img/Lisheen/cloakpN54W005.png',
+      LisheenimageBoundsN54W005 = [[54, -5], [55, -4]];
+      var LisheenimagegroupN54W005 = L.imageOverlay(LisheenimageUrlN54W005, LisheenimageBoundsN54W005, {opacity: 0.25});
+
+var LisheenimageUrlN54W006 = './assets/img/Lisheen/cloakpN54W006.png',
+      LisheenimageBoundsN54W006 = [[54, -6], [55, -5]];
+      var LisheenimagegroupN54W006 = L.imageOverlay(LisheenimageUrlN54W006, LisheenimageBoundsN54W006, {opacity: 0.25});
+
+var LisheenimageUrlN54W007 = './assets/img/Lisheen/cloakpN54W007.png',
+      LisheenimageBoundsN54W007 = [[54, -7], [55, -6]];
+      var LisheenimagegroupN54W007 = L.imageOverlay(LisheenimageUrlN54W007, LisheenimageBoundsN54W007, {opacity: 0.25});
+
+var LisheenimageUrlN54W008 = './assets/img/Lisheen/cloakpN54W008.png',
+      LisheenimageBoundsN54W008 = [[54, -8], [55, -7]];
+      var LisheenimagegroupN54W008 = L.imageOverlay(LisheenimageUrlN54W008, LisheenimageBoundsN54W008, {opacity: 0.25});
+
+var LisheenimageUrlN54W009 = './assets/img/Lisheen/cloakpN54W009.png',
+      LisheenimageBoundsN54W009 = [[54, -9], [55, -8]];
+      var LisheenimagegroupN54W009 = L.imageOverlay(LisheenimageUrlN54W009, LisheenimageBoundsN54W009, {opacity: 0.25});
+
+var LisheenimageUrlN54W010 = './assets/img/Lisheen/cloakpN54W010.png',
+      LisheenimageBoundsN54W010 = [[54, -10], [55, -9]];
+      var LisheenimagegroupN54W010 = L.imageOverlay(LisheenimageUrlN54W010, LisheenimageBoundsN54W010, {opacity: 0.25});	  
+	  
+var LisheenimageUrlN54W011 = './assets/img/Lisheen/cloakpN54W011.png',
+      LisheenimageBoundsN54W011 = [[54, -11], [55, -10]];
+      var LisheenimagegroupN54W011 = L.imageOverlay(LisheenimageUrlN54W011, LisheenimageBoundsN54W011, {opacity: 0.25});
+	  
+
+/* 55 */
+var LisheenimageUrlN55W004 = './assets/img/Lisheen/cloakpN55W004.png',
+      LisheenimageBoundsN55W004 = [[55, -4], [56, -3]];
+      var LisheenimagegroupN55W004 = L.imageOverlay(LisheenimageUrlN55W004, LisheenimageBoundsN55W004, {opacity: 0.25});
+
+var LisheenimageUrlN55W005 = './assets/img/Lisheen/cloakpN55W005.png',
+      LisheenimageBoundsN55W005 = [[55, -5], [56, -4]];
+      var LisheenimagegroupN55W005 = L.imageOverlay(LisheenimageUrlN55W005, LisheenimageBoundsN55W005, {opacity: 0.25});
+
+var LisheenimageUrlN55W006 = './assets/img/Lisheen/cloakpN55W006.png',
+      LisheenimageBoundsN55W006 = [[55, -6], [56, -5]];
+      var LisheenimagegroupN55W006 = L.imageOverlay(LisheenimageUrlN55W006, LisheenimageBoundsN55W006, {opacity: 0.25});
+
+var LisheenimageUrlN55W007 = './assets/img/Lisheen/cloakpN55W007.png',
+      LisheenimageBoundsN55W007 = [[55, -7], [56, -6]];
+      var LisheenimagegroupN55W007 = L.imageOverlay(LisheenimageUrlN55W007, LisheenimageBoundsN55W007, {opacity: 0.25});
+
+var LisheenimageUrlN55W008 = './assets/img/Lisheen/cloakpN55W008.png',
+      LisheenimageBoundsN55W008 = [[55, -8], [56, -7]];
+      var LisheenimagegroupN55W008 = L.imageOverlay(LisheenimageUrlN55W008, LisheenimageBoundsN55W008, {opacity: 0.25});
+
+var LisheenimageUrlN55W009 = './assets/img/Lisheen/cloakpN55W009.png',
+      LisheenimageBoundsN55W009 = [[55, -9], [56, -8]];
+      var LisheenimagegroupN55W009 = L.imageOverlay(LisheenimageUrlN55W009, LisheenimageBoundsN55W009, {opacity: 0.25});
+
+var LisheenimageUrlN55W010 = './assets/img/Lisheen/cloakpN55W010.png',
+      LisheenimageBoundsN55W010 = [[55, -10], [56, -9]];
+      var LisheenimagegroupN55W010 = L.imageOverlay(LisheenimageUrlN55W010, LisheenimageBoundsN55W010, {opacity: 0.25});	  
+	  
+var LisheenimageUrlN55W011 = './assets/img/Lisheen/cloakpN55W011.png',
+      LisheenimageBoundsN55W011 = [[55, -11], [56, -10]];
+      var LisheenimagegroupN55W011 = L.imageOverlay(LisheenimageUrlN55W011, LisheenimageBoundsN55W011, {opacity: 0.25});	  
+
+
+var Lisheenvch = L.layerGroup([LisheenimagegroupN51W004, LisheenimagegroupN51W005, LisheenimagegroupN51W006, LisheenimagegroupN51W007, LisheenimagegroupN51W008, LisheenimagegroupN51W009, LisheenimagegroupN51W010, LisheenimagegroupN51W011, LisheenimagegroupN52W004, LisheenimagegroupN52W005,  LisheenimagegroupN52W006, LisheenimagegroupN52W007, LisheenimagegroupN52W008, LisheenimagegroupN52W009, LisheenimagegroupN52W010, LisheenimagegroupN52W011, LisheenimagegroupN53W004, LisheenimagegroupN53W005, LisheenimagegroupN53W006, LisheenimagegroupN53W007, LisheenimagegroupN53W008, LisheenimagegroupN53W009, LisheenimagegroupN53W010, LisheenimagegroupN53W011, LisheenimagegroupN54W004, LisheenimagegroupN54W005, LisheenimagegroupN54W006, LisheenimagegroupN54W007, LisheenimagegroupN54W008, LisheenimagegroupN54W009, LisheenimagegroupN54W010, LisheenimagegroupN54W011, LisheenimagegroupN55W004, LisheenimagegroupN55W005, LisheenimagegroupN55W006, LisheenimagegroupN55W007, LisheenimagegroupN55W008, LisheenimagegroupN55W009, LisheenimagegroupN55W010, LisheenimagegroupN55W011]);       
+
+
+/* Grouped Layer with Visibility Cloak Horizon and Images */
+
+/* 51 */
+var CarnlamhaimageUrlN51W004 = './assets/img/Carnlamha/cloakpN51W004.png',
+      CarnlamhaimageBoundsN51W004 = [[51, -4], [52, -3]];
+      var CarnlamhaimagegroupN51W004 = L.imageOverlay(CarnlamhaimageUrlN51W004, CarnlamhaimageBoundsN51W004, {opacity: 0.25});
+
+var CarnlamhaimageUrlN51W005 = './assets/img/Carnlamha/cloakpN51W005.png',
+      CarnlamhaimageBoundsN51W005 = [[51, -5], [52, -4]];
+      var CarnlamhaimagegroupN51W005 = L.imageOverlay(CarnlamhaimageUrlN51W005, CarnlamhaimageBoundsN51W005, {opacity: 0.25});
+
+var CarnlamhaimageUrlN51W006 = './assets/img/Carnlamha/cloakpN51W006.png',
+      CarnlamhaimageBoundsN51W006 = [[51, -6], [52, -5]];
+      var CarnlamhaimagegroupN51W006 = L.imageOverlay(CarnlamhaimageUrlN51W006, CarnlamhaimageBoundsN51W006, {opacity: 0.25});
+
+var CarnlamhaimageUrlN51W007 = './assets/img/Carnlamha/cloakpN51W007.png',
+      CarnlamhaimageBoundsN51W007 = [[51, -7], [52, -6]];
+      var CarnlamhaimagegroupN51W007 = L.imageOverlay(CarnlamhaimageUrlN51W007, CarnlamhaimageBoundsN51W007, {opacity: 0.25});
+
+var CarnlamhaimageUrlN51W008 = './assets/img/Carnlamha/cloakpN51W008.png',
+      CarnlamhaimageBoundsN51W008 = [[51, -8], [52, -7]];
+      var CarnlamhaimagegroupN51W008 = L.imageOverlay(CarnlamhaimageUrlN51W008, CarnlamhaimageBoundsN51W008, {opacity: 0.25});
+
+var CarnlamhaimageUrlN51W009 = './assets/img/Carnlamha/cloakpN51W009.png',
+      CarnlamhaimageBoundsN51W009 = [[51, -9], [52, -8]];
+      var CarnlamhaimagegroupN51W009 = L.imageOverlay(CarnlamhaimageUrlN51W009, CarnlamhaimageBoundsN51W009, {opacity: 0.25});
+
+var CarnlamhaimageUrlN51W010 = './assets/img/Carnlamha/cloakpN51W010.png',
+      CarnlamhaimageBoundsN51W010 = [[51, -10], [52, -9]];
+      var CarnlamhaimagegroupN51W010 = L.imageOverlay(CarnlamhaimageUrlN51W010, CarnlamhaimageBoundsN51W010, {opacity: 0.25});	  
+	  
+var CarnlamhaimageUrlN51W011 = './assets/img/Carnlamha/cloakpN51W011.png',
+      CarnlamhaimageBoundsN51W011 = [[51, -11], [52, -10]];
+      var CarnlamhaimagegroupN51W011 = L.imageOverlay(CarnlamhaimageUrlN51W011, CarnlamhaimageBoundsN51W011, {opacity: 0.25});
+
+
+/* 52 */
+var CarnlamhaimageUrlN52W004 = './assets/img/Carnlamha/cloakpN52W004.png',
+      CarnlamhaimageBoundsN52W004 = [[52, -4], [53, -3]];
+      var CarnlamhaimagegroupN52W004 = L.imageOverlay(CarnlamhaimageUrlN52W004, CarnlamhaimageBoundsN52W004, {opacity: 0.25});
+
+var CarnlamhaimageUrlN52W005 = './assets/img/Carnlamha/cloakpN52W005.png',
+      CarnlamhaimageBoundsN52W005 = [[52, -5], [53, -4]];
+      var CarnlamhaimagegroupN52W005 = L.imageOverlay(CarnlamhaimageUrlN52W005, CarnlamhaimageBoundsN52W005, {opacity: 0.25});
+
+var CarnlamhaimageUrlN52W006 = './assets/img/Carnlamha/cloakpN52W006.png',
+      CarnlamhaimageBoundsN52W006 = [[52, -6], [53, -5]];
+      var CarnlamhaimagegroupN52W006 = L.imageOverlay(CarnlamhaimageUrlN52W006, CarnlamhaimageBoundsN52W006, {opacity: 0.25});
+
+var CarnlamhaimageUrlN52W007 = './assets/img/Carnlamha/cloakpN52W007.png',
+      CarnlamhaimageBoundsN52W007 = [[52, -7], [53, -6]];
+      var CarnlamhaimagegroupN52W007 = L.imageOverlay(CarnlamhaimageUrlN52W007, CarnlamhaimageBoundsN52W007, {opacity: 0.25});
+
+var CarnlamhaimageUrlN52W008 = './assets/img/Carnlamha/cloakpN52W008.png',
+      CarnlamhaimageBoundsN52W008 = [[52, -8], [53, -7]];
+      var CarnlamhaimagegroupN52W008 = L.imageOverlay(CarnlamhaimageUrlN52W008, CarnlamhaimageBoundsN52W008, {opacity: 0.25});
+
+var CarnlamhaimageUrlN52W009 = './assets/img/Carnlamha/cloakpN52W009.png',
+      CarnlamhaimageBoundsN52W009 = [[52, -9], [53, -8]];
+      var CarnlamhaimagegroupN52W009 = L.imageOverlay(CarnlamhaimageUrlN52W009, CarnlamhaimageBoundsN52W009, {opacity: 0.25});
+
+var CarnlamhaimageUrlN52W010 = './assets/img/Carnlamha/cloakpN52W010.png',
+      CarnlamhaimageBoundsN52W010 = [[52, -10], [53, -9]];
+      var CarnlamhaimagegroupN52W010 = L.imageOverlay(CarnlamhaimageUrlN52W010, CarnlamhaimageBoundsN52W010, {opacity: 0.25});	  
+	  
+var CarnlamhaimageUrlN52W011 = './assets/img/Carnlamha/cloakpN52W011.png',
+      CarnlamhaimageBoundsN52W011 = [[52, -11], [53, -10]];
+      var CarnlamhaimagegroupN52W011 = L.imageOverlay(CarnlamhaimageUrlN52W011, CarnlamhaimageBoundsN52W011, {opacity: 0.25});	  
+	  
+	  
+	  
+/* 53 */
+var CarnlamhaimageUrlN53W004 = './assets/img/Carnlamha/cloakpN53W004.png',
+      CarnlamhaimageBoundsN53W004 = [[53, -4], [54, -3]];
+      var CarnlamhaimagegroupN53W004 = L.imageOverlay(CarnlamhaimageUrlN53W004, CarnlamhaimageBoundsN53W004, {opacity: 0.25});
+
+var CarnlamhaimageUrlN53W005 = './assets/img/Carnlamha/cloakpN53W005.png',
+      CarnlamhaimageBoundsN53W005 = [[53, -5], [54, -4]];
+      var CarnlamhaimagegroupN53W005 = L.imageOverlay(CarnlamhaimageUrlN53W005, CarnlamhaimageBoundsN53W005, {opacity: 0.25});
+
+var CarnlamhaimageUrlN53W006 = './assets/img/Carnlamha/cloakpN53W006.png',
+      CarnlamhaimageBoundsN53W006 = [[53, -6], [54, -5]];
+      var CarnlamhaimagegroupN53W006 = L.imageOverlay(CarnlamhaimageUrlN53W006, CarnlamhaimageBoundsN53W006, {opacity: 0.25});
+
+var CarnlamhaimageUrlN53W007 = './assets/img/Carnlamha/cloakpN53W007.png',
+      CarnlamhaimageBoundsN53W007 = [[53, -7], [54, -6]];
+      var CarnlamhaimagegroupN53W007 = L.imageOverlay(CarnlamhaimageUrlN53W007, CarnlamhaimageBoundsN53W007, {opacity: 0.25});
+
+var CarnlamhaimageUrlN53W008 = './assets/img/Carnlamha/cloakpN53W008.png',
+      CarnlamhaimageBoundsN53W008 = [[53, -8], [54, -7]];
+      var CarnlamhaimagegroupN53W008 = L.imageOverlay(CarnlamhaimageUrlN53W008, CarnlamhaimageBoundsN53W008, {opacity: 0.25});
+
+var CarnlamhaimageUrlN53W009 = './assets/img/Carnlamha/cloakpN53W009.png',
+      CarnlamhaimageBoundsN53W009 = [[53, -9], [54, -8]];
+      var CarnlamhaimagegroupN53W009 = L.imageOverlay(CarnlamhaimageUrlN53W009, CarnlamhaimageBoundsN53W009, {opacity: 0.25});
+
+var CarnlamhaimageUrlN53W010 = './assets/img/Carnlamha/cloakpN53W010.png',
+      CarnlamhaimageBoundsN53W010 = [[53, -10], [54, -9]];
+      var CarnlamhaimagegroupN53W010 = L.imageOverlay(CarnlamhaimageUrlN53W010, CarnlamhaimageBoundsN53W010, {opacity: 0.25});	  
+	  
+var CarnlamhaimageUrlN53W011 = './assets/img/Carnlamha/cloakpN53W011.png',
+      CarnlamhaimageBoundsN53W011 = [[53, -11], [54, -10]];
+      var CarnlamhaimagegroupN53W011 = L.imageOverlay(CarnlamhaimageUrlN53W011, CarnlamhaimageBoundsN53W011, {opacity: 0.25});
+	  
+	  
+
+/* 54 */
+var CarnlamhaimageUrlN54W004 = './assets/img/Carnlamha/cloakpN54W004.png',
+      CarnlamhaimageBoundsN54W004 = [[54, -4], [55, -3]];
+      var CarnlamhaimagegroupN54W004 = L.imageOverlay(CarnlamhaimageUrlN54W004, CarnlamhaimageBoundsN54W004, {opacity: 0.25});
+
+var CarnlamhaimageUrlN54W005 = './assets/img/Carnlamha/cloakpN54W005.png',
+      CarnlamhaimageBoundsN54W005 = [[54, -5], [55, -4]];
+      var CarnlamhaimagegroupN54W005 = L.imageOverlay(CarnlamhaimageUrlN54W005, CarnlamhaimageBoundsN54W005, {opacity: 0.25});
+
+var CarnlamhaimageUrlN54W006 = './assets/img/Carnlamha/cloakpN54W006.png',
+      CarnlamhaimageBoundsN54W006 = [[54, -6], [55, -5]];
+      var CarnlamhaimagegroupN54W006 = L.imageOverlay(CarnlamhaimageUrlN54W006, CarnlamhaimageBoundsN54W006, {opacity: 0.25});
+
+var CarnlamhaimageUrlN54W007 = './assets/img/Carnlamha/cloakpN54W007.png',
+      CarnlamhaimageBoundsN54W007 = [[54, -7], [55, -6]];
+      var CarnlamhaimagegroupN54W007 = L.imageOverlay(CarnlamhaimageUrlN54W007, CarnlamhaimageBoundsN54W007, {opacity: 0.25});
+
+var CarnlamhaimageUrlN54W008 = './assets/img/Carnlamha/cloakpN54W008.png',
+      CarnlamhaimageBoundsN54W008 = [[54, -8], [55, -7]];
+      var CarnlamhaimagegroupN54W008 = L.imageOverlay(CarnlamhaimageUrlN54W008, CarnlamhaimageBoundsN54W008, {opacity: 0.25});
+
+var CarnlamhaimageUrlN54W009 = './assets/img/Carnlamha/cloakpN54W009.png',
+      CarnlamhaimageBoundsN54W009 = [[54, -9], [55, -8]];
+      var CarnlamhaimagegroupN54W009 = L.imageOverlay(CarnlamhaimageUrlN54W009, CarnlamhaimageBoundsN54W009, {opacity: 0.25});
+
+var CarnlamhaimageUrlN54W010 = './assets/img/Carnlamha/cloakpN54W010.png',
+      CarnlamhaimageBoundsN54W010 = [[54, -10], [55, -9]];
+      var CarnlamhaimagegroupN54W010 = L.imageOverlay(CarnlamhaimageUrlN54W010, CarnlamhaimageBoundsN54W010, {opacity: 0.25});	  
+	  
+var CarnlamhaimageUrlN54W011 = './assets/img/Carnlamha/cloakpN54W011.png',
+      CarnlamhaimageBoundsN54W011 = [[54, -11], [55, -10]];
+      var CarnlamhaimagegroupN54W011 = L.imageOverlay(CarnlamhaimageUrlN54W011, CarnlamhaimageBoundsN54W011, {opacity: 0.25});
+	  
+
+/* 55 */
+var CarnlamhaimageUrlN55W004 = './assets/img/Carnlamha/cloakpN55W004.png',
+      CarnlamhaimageBoundsN55W004 = [[55, -4], [56, -3]];
+      var CarnlamhaimagegroupN55W004 = L.imageOverlay(CarnlamhaimageUrlN55W004, CarnlamhaimageBoundsN55W004, {opacity: 0.25});
+
+var CarnlamhaimageUrlN55W005 = './assets/img/Carnlamha/cloakpN55W005.png',
+      CarnlamhaimageBoundsN55W005 = [[55, -5], [56, -4]];
+      var CarnlamhaimagegroupN55W005 = L.imageOverlay(CarnlamhaimageUrlN55W005, CarnlamhaimageBoundsN55W005, {opacity: 0.25});
+
+var CarnlamhaimageUrlN55W006 = './assets/img/Carnlamha/cloakpN55W006.png',
+      CarnlamhaimageBoundsN55W006 = [[55, -6], [56, -5]];
+      var CarnlamhaimagegroupN55W006 = L.imageOverlay(CarnlamhaimageUrlN55W006, CarnlamhaimageBoundsN55W006, {opacity: 0.25});
+
+var CarnlamhaimageUrlN55W007 = './assets/img/Carnlamha/cloakpN55W007.png',
+      CarnlamhaimageBoundsN55W007 = [[55, -7], [56, -6]];
+      var CarnlamhaimagegroupN55W007 = L.imageOverlay(CarnlamhaimageUrlN55W007, CarnlamhaimageBoundsN55W007, {opacity: 0.25});
+
+var CarnlamhaimageUrlN55W008 = './assets/img/Carnlamha/cloakpN55W008.png',
+      CarnlamhaimageBoundsN55W008 = [[55, -8], [56, -7]];
+      var CarnlamhaimagegroupN55W008 = L.imageOverlay(CarnlamhaimageUrlN55W008, CarnlamhaimageBoundsN55W008, {opacity: 0.25});
+
+var CarnlamhaimageUrlN55W009 = './assets/img/Carnlamha/cloakpN55W009.png',
+      CarnlamhaimageBoundsN55W009 = [[55, -9], [56, -8]];
+      var CarnlamhaimagegroupN55W009 = L.imageOverlay(CarnlamhaimageUrlN55W009, CarnlamhaimageBoundsN55W009, {opacity: 0.25});
+
+var CarnlamhaimageUrlN55W010 = './assets/img/Carnlamha/cloakpN55W010.png',
+      CarnlamhaimageBoundsN55W010 = [[55, -10], [56, -9]];
+      var CarnlamhaimagegroupN55W010 = L.imageOverlay(CarnlamhaimageUrlN55W010, CarnlamhaimageBoundsN55W010, {opacity: 0.25});	  
+	  
+var CarnlamhaimageUrlN55W011 = './assets/img/Carnlamha/cloakpN55W011.png',
+      CarnlamhaimageBoundsN55W011 = [[55, -11], [56, -10]];
+      var CarnlamhaimagegroupN55W011 = L.imageOverlay(CarnlamhaimageUrlN55W011, CarnlamhaimageBoundsN55W011, {opacity: 0.25});	  
+
+
+var Carnlamhavch = L.layerGroup([CarnlamhaimagegroupN51W004, CarnlamhaimagegroupN51W005, CarnlamhaimagegroupN51W006, CarnlamhaimagegroupN51W007, CarnlamhaimagegroupN51W008, CarnlamhaimagegroupN51W009, CarnlamhaimagegroupN51W010, CarnlamhaimagegroupN51W011, CarnlamhaimagegroupN52W004, CarnlamhaimagegroupN52W005,  CarnlamhaimagegroupN52W006, CarnlamhaimagegroupN52W007, CarnlamhaimagegroupN52W008, CarnlamhaimagegroupN52W009, CarnlamhaimagegroupN52W010, CarnlamhaimagegroupN52W011, CarnlamhaimagegroupN53W004, CarnlamhaimagegroupN53W005, CarnlamhaimagegroupN53W006, CarnlamhaimagegroupN53W007, CarnlamhaimagegroupN53W008, CarnlamhaimagegroupN53W009, CarnlamhaimagegroupN53W010, CarnlamhaimagegroupN53W011, CarnlamhaimagegroupN54W004, CarnlamhaimagegroupN54W005, CarnlamhaimagegroupN54W006, CarnlamhaimagegroupN54W007, CarnlamhaimagegroupN54W008, CarnlamhaimagegroupN54W009, CarnlamhaimagegroupN54W010, CarnlamhaimagegroupN54W011, CarnlamhaimagegroupN55W004, CarnlamhaimagegroupN55W005, CarnlamhaimagegroupN55W006, CarnlamhaimagegroupN55W007, CarnlamhaimagegroupN55W008, CarnlamhaimagegroupN55W009, CarnlamhaimagegroupN55W010, CarnlamhaimagegroupN55W011]);
+
+        
+/* Rathcroghan Visibility Cloak Outline Styles*/
+var RathcroghanVCOStyle = {
+      fillColor: "#ad1457",
+      color: "#ad1457",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.01,
+      clickable: false
+    };
+
+	
+/* Rathcroghan Visibility Cloak Outline */
+var RathcroghanVCO = L.geoJson.ajax("assets/geojson/RathcroghanVCO.geojson", {style:RathcroghanVCOStyle}).addTo(Rathcroghanvch);
+
+
+/* Rathra Visibility Cloak Outline Styles*/
+var RathraVCOStyle = {
+      fillColor: "#ffb732",
+      color: "#ffc04c",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.1,
+      clickable: false
+    };
+
+	
+/* Rathra Visibility Cloak Outline */
+var RathraVCO = L.geoJson.ajax("assets/geojson/RathraVCO.geojson", {style:RathraVCOStyle}).addTo(rathravch);
+
+
+/* Carnfraech Visibility Cloak Outline Styles*/
+var CarnfraechVCOStyle = {
+      fillColor: "#9933CC",
+      color: "#9933CC",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.1,
+      clickable: false
+    };
+
+	
+/* Carnfraech Visibility Cloak Outline */
+var CarnfraechVCO = L.geoJson.ajax("assets/geojson/CarnfraechVCO.geojson", {style:CarnfraechVCOStyle}).addTo(Carnfraechvch);
+
+
+/* Castleteheen Visibility Cloak Outline Styles*/
+var CastleteheenVCOStyle = {
+      fillColor: "#9933CC",
+      color: "#9933CC",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.1,
+      clickable: false
+    };
+
+	
+/* Castleteheen Visibility Cloak Outline */
+var CastleteheenVCO = L.geoJson.ajax("assets/geojson/CastleteheenVCO.geojson", {style:CastleteheenVCOStyle}).addTo(Castleteheenvch);
+
+
+/* Lisheen Visibility Cloak Outline Styles*/
+var LisheenVCOStyle = {
+      fillColor: "#c6ff00",
+      color: "#c6ff00",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.1,
+      clickable: false
+    };
+
+	
+/* Lisheen Visibility Cloak Outline */
+var LisheenVCO = L.geoJson.ajax("assets/geojson/LisheenVCO.geojson", {style:LisheenVCOStyle}).addTo(Lisheenvch);
+
+
+/* Carnlamha Visibility Cloak Outline Styles*/
+var CarnlamhaVCOStyle = {
+      fillColor: "#00e5ff",
+      color: "#00e5ff",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.1,
+      clickable: false
+    };
+
+	
+/* Carnlamha Visibility Cloak Outline */
+var CarnlamhaVCO = L.geoJson.ajax("assets/geojson/CarnlamhaVCO.geojson", {style:CarnlamhaVCOStyle}).addTo(Carnlamhavch);
+
+
+
+
+
+
+/* Rathcroghan Line Layer Group */
+var RathcroghanLineGroup = new L.LayerGroup([]);
+
+/* Rathra Line Layer Group */
+var RathraLineGroup = new L.LayerGroup([]);
+
+/* Castleheen Line Layer Group */
+var CastleteheenLineGroup = new L.LayerGroup([]);
+
+/* Castleheen Line Layer Group */
+var CastleteheenbLineGroup = new L.LayerGroup([]);
+
+/* Lisheen Line Layer Group */
+var LisheenLineGroup = new L.LayerGroup([]);
+
+/* Lisheen Line Layer Group */
+var LisheenbLineGroup = new L.LayerGroup([]);
+
+/* Carnlamha Line Layer Group */
+var CarnlamhaLineGroup = new L.LayerGroup([]);
+
+/* Carnlamha Line Layer Group */
+var CarnlamhabLineGroup = new L.LayerGroup([]);
+
+/* Carnfraech Line Layer Group */
+var CarnfraechLineGroup = new L.LayerGroup([]);
+
+
+
+/* Rathcroghan Line */
+
+
+    var Rathcroghanarrow = L.polyline([[53.8022, -8.3041], [53.80727, -7.71598]], {color: "#424242", weight: 2}).addTo(RathcroghanLineGroup);
+    var RathcroghanarrowHead = L.polylineDecorator(Rathcroghanarrow, {
+        patterns: [
+            {offset: '100%', repeat: 0, symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true, color: "#0d47a1", weight: 2}})}
+        ]
+    }).addTo(RathcroghanLineGroup);
+
+
+/* Rathra Line */
+
+
+    var Rathraarrow = L.polyline([[53.756, -8.422], [53.7603, -9.6598]], {color: "#424242", weight: 2}).addTo(RathraLineGroup);
+    var RathraarrowHead = L.polylineDecorator(Rathraarrow, {
+        patterns: [
+            {offset: '100%', repeat: 0, symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true, color: "#0d47a1", weight: 2}})}
+        ]
+    }).addTo(RathraLineGroup);
+
+
+/* Castleteheen Line */
+
+
+    var Castleteheenarrow = L.polyline([[53.752431, -8.4117239], [53.7603, -9.6598]], {color: "#424242", weight: 2}).addTo(CastleteheenLineGroup);
+    var CastleteheenarrowHead = L.polylineDecorator(Castleteheenarrow, {
+        patterns: [
+            {offset: '100%', repeat: 0, symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true, color: "#0d47a1", weight: 2}})}
+        ]
+    }).addTo(CastleteheenLineGroup);
+	
+	
+	var Castleteheenbarrow = L.polyline([[53.752431, -8.4117239], [53.754065, -8.2635051]], {color: "#424242", weight: 2}).addTo(CastleteheenbLineGroup);
+    var CastleteheenbarrowHead = L.polylineDecorator(Castleteheenbarrow, {
+        patterns: [
+            {offset: '100%', repeat: 0, symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true, color: "#0d47a1", weight: 2}})}
+        ]
+    }).addTo(CastleteheenbLineGroup);
+
+
+
+/* Lisheen Line */
+
+
+    var Lisheenarrow = L.polyline([[53.754975,-8.351047], [53.7603, -9.6598]], {color: "#424242", weight: 2}).addTo(LisheenLineGroup);
+    var LisheenarrowHead = L.polylineDecorator(Lisheenarrow, {
+        patterns: [
+            {offset: '100%', repeat: 0, symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true, color: "#0d47a1", weight: 2}})}
+        ]
+    }).addTo(LisheenLineGroup);
+
+
+/* Lisheen B Line */
+
+
+    var Lisheenbarrow = L.polyline([[53.754975,-8.351047], [53.75567424,-8.26695593]], {color: "#424242", weight: 2}).addTo(LisheenbLineGroup);
+    var LisheenbarrowHead = L.polylineDecorator(Lisheenbarrow, {
+        patterns: [
+            {offset: '100%', repeat: 0, symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true, color: "#0d47a1", weight: 2}})}
+        ]
+    }).addTo(LisheenbLineGroup);
+
+
+
+/* Carnlamha Line */
+
+
+    var Carnlamhaarrow = L.polyline([[53.754065, -8.2635051], [53.754975,-8.351047]], {color: "#424242", weight: 2}).addTo(CarnlamhaLineGroup);
+    var CarnlamhaarrowHead = L.polylineDecorator(Carnlamhaarrow, {
+        patterns: [
+            {offset: '100%', repeat: 0, symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true, color: "#0d47a1", weight: 2}})}
+        ]
+    }).addTo(CarnlamhaLineGroup);
+	
+	
+/* Carnlamha B Line */
+
+
+    var Carnlamhabarrow = L.polyline([[53.754065, -8.2635051], [53.754565, -7.2849664]], {color: "#424242", weight: 2}).addTo(CarnlamhabLineGroup);
+    var CarnlamhabarrowHead = L.polylineDecorator(Carnlamhabarrow, {
+        patterns: [
+            {offset: '100%', repeat: 0, symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true, color: "#0d47a1", weight: 2}})}
+        ]
+    }).addTo(CarnlamhabLineGroup);
+	
+	
+/* Carnfraech Line */
+
+
+    var Carnfraecharrow = L.polyline([[53.75567424,-8.26695593], [53.762056,-7.2891712]], {color: "#424242", weight: 2}).addTo(CarnfraechLineGroup);
+    var CarnfraecharrowHead = L.polylineDecorator(Carnfraecharrow, {
+        patterns: [
+            {offset: '100%', repeat: 0, symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true, color: "#0d47a1", weight: 2}})}
+        ]
+    }).addTo(CarnfraechLineGroup);
+
+
+
+/* Fly-To Corn Hill */
+var FlyCornHill = [53.80727,-7.71598];
+
+$('#button-fly-Cornhill').on('click', function(){
+      
+      map.flyTo(FlyCornHill, 17);
+    });
+
+/* Fly-To Croaghpatrick */
+var FlyCroaghpatrick = [53.7603,-9.6598];
+
+$('#button-fly-Croaghpatrick').on('click', function(){
+      
+      map.flyTo(FlyCroaghpatrick, 15);
+    });
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Intro Image */
+var IntroImage = new L.featureGroup();
+var center = [55.534848, -17.017822];
+
+var imageUrl = 'assets/img/Maeve.jpg',
+  imageBounds = [center, [51.303145, -2.988281]];
+
+L.imageOverlay(imageUrl, imageBounds).addTo(IntroImage);
+
+
+
+
+
+
+
+
+
+
+
+/* Dummy Layer Group */
+var DummyGroup = new L.LayerGroup();
+        
+var Rathcroghanlocation = L.layerGroup(); 
+var Cornhilllocation = L.layerGroup();
+var Rathralocation = L.layerGroup();
+var Croaghpatricklocation = L.layerGroup();
+var Castleteheenlocation = L.layerGroup();
+var Lisheenlocation = L.layerGroup();
+var Carnfraechlocation = L.layerGroup();
+var Carnlamhalocation = L.layerGroup();
+var Mullaghmeenlocation = L.layerGroup();
+var Carnlocation = L.layerGroup();
+
+
+
+ 
+
+
+        
+        
+var locationszoomout = L.layerGroup();
+var cruachan = L.layerGroup();	
+
+
+var circle = L.circle([53.80235, -8.30466], 10000, {
+				    weight: 1,
+                    color: '#526392',
+				    fillColor: '#526392',
+				    fillOpacity: 0.3
+				}).addTo(cruachan);
+
+var LabeledMarker = L.LabeledCircleMarker;
+
+
+var Rathcroghanzoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 1,
+    "labelPosition": [
+       -8.4576689,
+	   53.898078
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -8.3041264, 53.802218]
+  }
+};
+
+var marker = new LabeledMarker(
+  Rathcroghanzoomout.geometry.coordinates.slice().reverse(),
+  Rathcroghanzoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout);			
+
+  
+
+  
+  
+  
+  
+  
+var RathcroghanZoom = [53.80226,-8.3065];
+
+				
+var Rathcroghan = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+    number: '1',
+	markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.80226,-8.30435], {icon: Rathcroghan}).addTo(Rathcroghanlocation);
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+var Rathrazoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 3,
+    "labelPosition": [
+       -8.5493719,
+	   53.815694
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -8.4219697, 53.7560252]
+  }
+};
+
+var marker = new LabeledMarker(
+  Rathrazoomout.geometry.coordinates.slice().reverse(),
+  Rathrazoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout);  
+  
+  
+var RathraZoom = [53.7560252,-8.423];  
+  
+var Rathra = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+	number: '3',
+    markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.7560252,-8.4219697], {icon: Rathra}).addTo(Rathralocation);
+  
+  
+ 
+ 
+
+ 
+ 
+var Cornhillzoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 2,
+    "labelPosition": [
+       -7.4302751,
+	   53.960764
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -7.71598, 53.80727]
+  }
+};
+
+var marker = new LabeledMarker(
+  Cornhillzoomout.geometry.coordinates.slice().reverse(),
+  Cornhillzoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout); 
+ 
+ 
+ 
+ 
+var CornhillZoom = [53.80727,-7.717];
+ 
+var Cornhill = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+	number: '2',
+    markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.80727,-7.71598], {icon: Cornhill}).addTo(Cornhilllocation);
+
+
+
+
+
+
+  
+  
+  
+var Croaghpatrickzoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 4,
+    "labelPosition": [
+       -9.7456166,
+	   53.912577
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -9.6598, 53.7603]
+  }
+};
+
+var marker = new LabeledMarker(
+  Croaghpatrickzoomout.geometry.coordinates.slice().reverse(),
+  Croaghpatrickzoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout);   
+  
+  
+  
+  
+var CroaghpatrickZoom = [53.7603,-9.664];
+  
+var Croaghpatrick = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+	number: '4',
+    markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.7603,-9.6598], {icon: Croaghpatrick}).addTo(Croaghpatricklocation);
+  
+
+
+
+
+
+
+
+
+var Carnfraechzoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 5,
+    "labelPosition": [
+       -8.3773796,
+	   53.633434
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -8.26695593, 53.75567424]
+  }
+};
+
+var marker = new LabeledMarker(
+  Carnfraechzoomout.geometry.coordinates.slice().reverse(),
+  Carnfraechzoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout);
+
+
+  
+var CarnfraechZoom = [53.75567424,-8.26695593];
+
+				
+var Carnfraech = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+    number: '5',
+	markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.75567424,-8.26695593], {icon: Carnfraech}).addTo(Carnfraechlocation);
+
+
+
+
+
+
+
+var Carnlamhazoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 6,
+    "labelPosition": [
+       -8.1161499,
+	   53.662543
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -8.2635051, 53.754065]
+  }
+};
+
+var marker = new LabeledMarker(
+  Carnlamhazoomout.geometry.coordinates.slice().reverse(),
+  Carnlamhazoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout);
+
+  
+var CarnlamhaZoom = [53.754065,-8.2635051];
+
+				
+var Carnlamha = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+    number: '6',
+	markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.754065,-8.2635051], {icon: Carnlamha}).addTo(Carnlamhalocation);
+
+
+
+
+
+
+
+
+
+var Lisheenzoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 8,
+    "labelPosition": [
+       -8.5858154,
+	   53.53541
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -8.351047, 53.754975]
+  }
+};
+
+var marker = new LabeledMarker(
+  Lisheenzoomout.geometry.coordinates.slice().reverse(),
+  Lisheenzoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout);
+
+
+
+  
+var LisheenZoom = [53.75498,-8.3510497];
+
+				
+var Lisheen = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+    number: '8',
+	markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.754975,-8.351047], {icon: Lisheen}).addTo(Lisheenlocation);
+  
+  
+
+
+
+
+
+var Castleteheenzoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 7,
+    "labelPosition": [
+       -8.8783264,
+	   53.516634
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -8.4117239, 53.752431]
+  }
+};
+
+var marker = new LabeledMarker(
+  Castleteheenzoomout.geometry.coordinates.slice().reverse(),
+  Castleteheenzoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout);  
+
+  
+var CastleteheenZoom = [53.752431,-8.4117239];
+
+				
+var Castleteheen = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+    number: '7',
+	markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.752431,-8.4117239], {icon: Castleteheen}).addTo(Castleteheenlocation);
+  
+  
+
+
+
+
+var Mullaghmeenzoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 9,
+    "labelPosition": [
+       -7.093048,
+	   53.867914
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -7.2891712, 53.762056]
+  }
+};
+
+/*  
+
+var marker = new LabeledMarker(
+  Mullaghmeenzoomout.geometry.coordinates.slice().reverse(),
+  Mullaghmeenzoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout);
+
+*/
+  
+var MullaghmeenZoom = [53.762056,-7.2891712];
+
+				
+var Mullaghmeen = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+    number: '9',
+	markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.762056,-7.2891712], {icon: Mullaghmeen}).addTo(Mullaghmeenlocation);
+  
+  
+  
+var Carnzoomout = {
+  "type": "Feature",
+  "properties": {
+    "text": 10,
+    "labelPosition": [
+       -7.1503312,
+	   53.675869
+      
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -7.2849664, 53.754565]
+  }
+};
+
+/*
+var marker = new LabeledMarker(
+  Carnzoomout.geometry.coordinates.slice().reverse(),
+  Carnzoomout, {
+    markerOptions: { color: '#17202A' },
+	lineOptions: { color: '#17202A' },
+	anchorOptions: { color: '#ff4444', fillColor: '#ff4444'}
+  }).addTo(locationszoomout);
+
+*/
+  
+var CarnZoom = [53.754565,-7.2849664];
+
+				
+var Carn = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+    number: '10',
+	markerColor: 'blue-dark',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
+  L.marker([53.754565,-7.2849664], {icon: Carn}).addTo(Carnlocation);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var Locations = L.featureGroup([Rathcroghanlocation, Cornhilllocation, Rathralocation, Croaghpatricklocation, Castleteheenlocation, Lisheenlocation, Carnfraechlocation, Carnlamhalocation, Mullaghmeenlocation, Carnlocation]);
+
+var RathcroghanGroup = L.layerGroup([RathcroghanLineGroup, Rathcroghanvch, Rathcroghanlocation, Cornhilllocation]);
+
+var RathraGroup = L.featureGroup([RathraLineGroup, rathravch, Rathralocation, Croaghpatricklocation]);
+
+var CastleteheenGroup = L.featureGroup([CastleteheenLineGroup, Castleteheenvch, Castleteheenlocation, Croaghpatricklocation]);
+
+var CastleteheenbGroup = L.featureGroup([CastleteheenbLineGroup, Castleteheenvch, Castleteheenlocation, Carnlamhalocation]);
+
+var LisheenGroup = L.featureGroup([LisheenLineGroup, Lisheenvch, Lisheenlocation, Croaghpatricklocation]);
+
+var LisheenbGroup = L.featureGroup([LisheenbLineGroup, Lisheenvch, Lisheenlocation, Carnfraechlocation]);
+
+var CarnlamhaGroup = L.featureGroup([CarnlamhaLineGroup, Carnlamhavch, Lisheenlocation, Carnlamhalocation]);
+
+var CarnlamhabGroup = L.featureGroup([CarnlamhabLineGroup, Carnlamhavch, Carnlocation, Carnlamhalocation]);
+
+var CarnfraechGroup = L.featureGroup([CarnfraechLineGroup, Carnfraechvch, Carnfraechlocation, Mullaghmeenlocation]);
+
+
+
+
+var RathcroghanCornhillZoom = [53.8246, -8.2];
+var RathraCroaghpatrickZoom = [53.7828, -9.4];
+var CastleteheenCroaghpatrickZoom = [53.7828, -9.4];
+var CarnfraechMullaghmeenZoom = [53.7584, -8.1573];
+var LocationsZoom = [53.8420, -9.5];
+var RathcroghanRathraZoom = [53.7828, -8.3772];
+var CastleteheenCroaghpatrickZoom = [53.7828, -9.4];
+var CastleteheenCarnlamhaZoom = [53.765354, -8.4409332];
+var LisheenVCHZoom = [53.7828, -9.4];
+var LisheenVCHZoomA = [53.765, -8.4539];        
+        
+var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  attribution: 'Map data &copy; 2013 OpenStreetMap contributors'
+              });
+        
+var osm2 = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  attribution: 'Map data &copy; 2013 OpenStreetMap contributors'
+              });
+      		
+      
+var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+      			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+      			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      		mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+      
+      	
+var grayscale = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
+tileSize: 512,
+maxZoom: 18,
+zoomOffset: -1,
+id: 'mapbox/light-v10',
+accessToken: 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw'
+});
+        
+        
+var BING_KEY = 'AmPQVvaKSid_g48EnFJjbYUOyWPlkQh1QGJlsFFZnw1EnJioQ5kvSiv2w7SUaJ9B'
+
+
+var bingLayer = L.tileLayer.bing(BING_KEY)
+        
+        
+var map = L.map('map', {
+        center: [53.8420, -9.5],
+        zoom: 8,
+        zoomControl: false    
+        }).addLayer(grayscale);
+        
+        
+new L.Control.Zoom({ position: 'topright' }).addTo(map);
+        
+var miniMap = new L.Control.MiniMap(osm2, { toggleDisplay: true }).addTo(map);
+        
+mapLink = 
+            '<a href="https://web.archive.org/web/20160505115050/http://openstreetmap.org/">OpenStreetMap</a>';
+        L.tileLayer(
+            'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; ' + mapLink,
+            maxZoom: 18,
+            });
+    
+        
+        $('.slide1').waypoint(function() {
+  		
+    		map.removeLayer(Locations);
+            map.removeLayer(bingLayer);
+			map.removeLayer(locationszoomout);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+			
+			map.setView([53.4717, -10.00], 7);
+			map.addLayer(IntroImage);
+			
+  		},
+        {context: '.slidecontent' 
+
+		});
+        
+       
+        
+        $('.slide2').waypoint(function() {
+  		
+    		map.removeLayer(IntroImage);
+			map.removeLayer(Locations);
+            map.removeLayer(bingLayer);
+			
+			map.addLayer(grayscale);
+			map.addLayer(locationszoomout);
+            
+			map.flyTo(LocationsZoom, 8);
+  		},
+        {context: '.slidecontent' 
+
+		});
+        
+        
+        $('.L1').waypoint(function() {
+  		
+    		
+            map.removeLayer(IntroImage);
+            map.removeLayer(grayscale);
+			map.removeLayer(locationszoomout);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+			
+			map.addLayer(bingLayer);
+			map.addLayer(Locations);
+			map.flyTo(RathcroghanZoom, 17);
+  		},
+        {context: '.slidecontent' 
+
+		});
+        
+        
+        $('.L2').waypoint(function() {
+  		
+			map.removeLayer(IntroImage);
+    		map.removeLayer(grayscale);
+			map.removeLayer(locationszoomout);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+			
+			map.addLayer(bingLayer);
+			map.addLayer(Locations);
+            map.flyTo(CornhillZoom, 17);
+  		},
+        {context: '.slidecontent' 
+
+		});
+        
+        
+        $('.L3').waypoint(function() {
+  		
+    		map.removeLayer(IntroImage);
+            map.removeLayer(grayscale);
+			map.removeLayer(locationszoomout);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+            
+			
+			map.addLayer(bingLayer);
+			map.addLayer(Locations);
+            map.flyTo(RathraZoom, 18);
+  		},
+        {context: '.slidecontent' 
+
+		});
+        
+        $('.L4').waypoint(function() {
+  		    
+            map.removeLayer(IntroImage);
+            map.removeLayer(grayscale);
+			map.removeLayer(locationszoomout);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+            
+			
+			map.addLayer(bingLayer);
+    		map.addLayer(Locations);
+            map.flyTo(CroaghpatrickZoom, 16);
+  		},
+        {context: '.slidecontent' 
+
+		});
+		
+		$('.L5').waypoint(function() {
+  		    
+            map.removeLayer(IntroImage);
+            map.removeLayer(grayscale);
+			map.removeLayer(locationszoomout);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+            
+            
+			
+			map.addLayer(bingLayer);
+    		map.addLayer(Locations);
+            map.flyTo(CarnfraechZoom, 18);
+  		},
+        {context: '.slidecontent' 
+
+		});
+		
+		$('.L6').waypoint(function() {
+  		    
+            map.removeLayer(IntroImage);
+            map.removeLayer(grayscale);
+			map.removeLayer(locationszoomout);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+            
+			
+			map.addLayer(bingLayer);
+    		map.addLayer(Locations);
+            map.flyTo(CarnlamhaZoom, 18);
+  		},
+        {context: '.slidecontent' 
+
+		});
+		
+		$('.L7').waypoint(function() {
+  		    
+            map.removeLayer(IntroImage);
+            map.removeLayer(grayscale);
+			map.removeLayer(locationszoomout);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+            
+			
+			map.addLayer(bingLayer);
+    		map.addLayer(Locations);
+            map.flyTo(CastleteheenZoom, 18);
+  		},
+        {context: '.slidecontent' 
+
+		});
+		
+		$('.L8').waypoint(function() {
+  		    
+            map.removeLayer(IntroImage);
+            map.removeLayer(grayscale);
+			map.removeLayer(locationszoomout);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+            
+			
+			map.addLayer(bingLayer);
+    		map.addLayer(Locations);
+            map.flyTo(LisheenZoom, 18);
+  		},
+        {context: '.slidecontent' 
+
+		});
+		
+		$('.A1').waypoint(function() {
+  		
+    		
+					
+			map.removeLayer(IntroImage);
+            map.removeLayer(bingLayer);
+			map.removeLayer(Locations);
+			
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);			
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+			
+			map.addLayer(grayscale);
+            map.addLayer(RathcroghanGroup);
+			map.flyTo(RathcroghanCornhillZoom, 10);
+			
+						
+  		},
+        {context: '.slidecontent' 
+
+		});
+        
+        $('.A2').waypoint(function() {
+  		
+    		map.removeLayer(IntroImage);
+			map.removeLayer(bingLayer);
+			map.removeLayer(Locations);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+			
+			map.addLayer(RathraGroup);
+			map.flyTo(RathraCroaghpatrickZoom, 9);
+			
+  		},
+        {context: '.slidecontent' 
+
+		});
+		
+		$('.A3').waypoint(function() {
+  		
+    		map.removeLayer(IntroImage);
+			map.removeLayer(bingLayer);
+			map.removeLayer(Locations);
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+			
+			map.addLayer(CastleteheenGroup);
+			map.flyTo(CastleteheenCroaghpatrickZoom, 9);
+			
+  		},
+        {context: '.slidecontent' 
+
+		});
+        
+        
+		
+		
+		$('.A4').waypoint(function() {
+  		
+    		map.removeLayer(IntroImage);
+			map.removeLayer(bingLayer);
+			map.removeLayer(Locations);
+			
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+			
+            map.addLayer(CastleteheenbGroup);
+			map.flyTo(CastleteheenCarnlamhaZoom, 12);
+			
+  		},
+        {context: '.slidecontent' 
+
+		});
+		
+		
+		        
+        $('.A5').waypoint(function() {
+  		
+    		map.removeLayer(IntroImage);
+			map.removeLayer(bingLayer);
+			map.removeLayer(Locations);
+			
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenbGroup);
+			map.removeLayer(CarnlamhaGroup);
+			
+			map.addLayer(LisheenGroup);
+			map.flyTo(LisheenVCHZoom, 9);
+			
+  		},
+        {context: '.slidecontent' 
+
+		});
+		
+		$('.A6').waypoint(function() {
+  		
+			map.removeLayer(IntroImage);
+    		map.removeLayer(bingLayer);
+			map.removeLayer(Locations);
+			
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(CarnlamhaGroup);
+			
+			map.addLayer(LisheenbGroup);
+			map.flyTo(CastleteheenCarnlamhaZoom, 12);
+			
+  		},
+        {context: '.slidecontent' 
+
+		});
+        
+        $('.A7').waypoint(function() {
+  		
+    		map.removeLayer(IntroImage);
+			map.removeLayer(bingLayer);
+			map.removeLayer(Locations);
+			
+			
+			map.removeLayer(RathcroghanGroup);
+			map.removeLayer(RathraGroup);
+			map.removeLayer(CastleteheenGroup);
+			map.removeLayer(CastleteheenbGroup);
+			map.removeLayer(LisheenGroup);
+			map.removeLayer(LisheenbGroup);
+			
+			map.addLayer(CarnlamhaGroup);
+			map.flyTo(LisheenVCHZoomA, 11);
+			
+  		},
+        {context: '.slidecontent' 
+
+		});
+        
+        
+        
+</script>
+
+</body>
+</html>

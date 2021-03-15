@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "Division": "Equinox",
+        "Line": "Spring western sunset",
+        "stroke": "#fff176",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.422,
+            53.756
+          ],
+          [
+            -23.4585,
+            53.0022
+          ]
+        ]
+      }
+    }
+  ]
+}

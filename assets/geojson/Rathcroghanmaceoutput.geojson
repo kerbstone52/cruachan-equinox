@@ -1,0 +1,567 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "Division": "Solstice",
+        "Line": "Summer northern sunrise",
+        "stroke": "#ffb74d",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+		    -8.3041,
+			53.8022
+		  ],
+          [
+		    4.447,
+		    59.4574
+		  ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "Division": "Solstice",
+        "Line": "Summer northern sunset",
+        "stroke": "#ffb74d",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -21.0553,
+            59.4574
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "Division": "Solstice",
+        "Line": "Winter southern sunrise",
+        "stroke": "#ffb74d",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            1.7935,
+            47.4778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "Division": "Solstice",
+        "Line": "Winter southern sunset",
+        "stroke": "#ffb74d",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -18.4018,
+            47.4778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "Division": "Equinox",
+        "Line": "Spring eastern sunrise",
+        "stroke": "#fff176",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            6.7483,
+            53.0468
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "Division": "Equinox",
+        "Line": "Spring western sunset",
+        "stroke": "#fff176",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -23.3566,
+            53.0468
+          ]
+        ]
+      }
+    },
+    
+	{
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "Division": "Cross quarter",
+        "Line": "Summer northern sunrise",
+        "stroke": "#aed581",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            6.3011,
+            57.4196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "Division": "Cross quarter",
+        "Line": "Summer northern sunset",
+        "stroke": "#aed581",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -22.9094,
+            57.4196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "Division": "Cross quarter",
+        "Line": "Winter southern sunrise",
+        "stroke": "#aed581",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            3.9927,
+            49.0804
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "Division": "Cross quarter",
+        "Line": "Winter southern sunset",
+        "stroke": "#aed581",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -20.6009,
+            49.0804
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "Division": "Major lunar standstill",
+        "Line": "Northern moonrise",
+        "stroke": "#7283a7",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            2.4216,
+            60.6904
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "Division": "Major lunar standstill",
+        "Line": "Northern moonset",
+        "stroke": "#7283a7",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -19.0298,
+            60.6904
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "Division": "Major lunar standstill",
+        "Line": "Southern moonrise",
+        "stroke": "#7283a7",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -0.8004,
+            46.2091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "Division": "Major lunar standstill",
+        "Line": "Southern moonset",
+        "stroke": "#7283a7",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -15.8079,
+            46.2091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "Division": "Minor lunar standstill",
+        "Line": "Northern moonrise",
+        "stroke": "#ff8a65",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            6.0877,
+            57.7568
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "Division": "Minor lunar standstill",
+        "Line": "Northern moonset",
+        "stroke": "#ff8a65",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -22.696,
+            57.7568
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "Division": "Minor lunar standstill",
+        "Line": "Southern moonrise",
+        "stroke": "#ff8a65",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            3.2454,
+            48.4628
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "Division": "Minor lunar standstill",
+        "Line": "Southern moonset",
+        "stroke": "#ff8a65",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -19.8537,
+            48.4628
+          ]
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "Division": "North/South",
+        "Line": "North",
+        "stroke": "#f3e5f5",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -8.3041,
+            62.7864
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "Division": "North/South",
+        "Line": "South",
+        "stroke": "#e1bee7",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "Inner bearing": "",
+        "geodesic": "true",
+        "geodesic_steps": 50,
+        "geodesic_wrap": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3041,
+            53.8022
+          ],
+          [
+            -8.3041,
+            44.818
+          ]
+        ]
+      }
+    }
+  ]
+}
